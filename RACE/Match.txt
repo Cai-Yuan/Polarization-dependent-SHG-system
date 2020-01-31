@@ -1,0 +1,78 @@
+//Addition
+//Subtraction
+//Multiplication
+//Division
+
+
+//DWORD Add(DWORD n, FLOAT *in1, FLOAT *in2, FLOAT *out)
+//{
+//	if(	!in1 || 
+//		!in2 || 
+//		!out)
+//		return FALSE;
+//
+//	DWORD i = NULL;
+//
+//	for(i = 0; i < n; i++){
+//
+//		out[i] = in1[i]+in2[i];
+//
+//	}
+//
+//	return i;
+//}
+//
+//DWORD Subtract(DWORD n, FLOAT *in1, FLOAT *in2, FLOAT *out)
+//{
+//	if(	!in1 || 
+//		!in2 || 
+//		!out)
+//		return FALSE;
+//
+//	DWORD i = NULL;
+//
+//	for(i = 0; i < n; i++){
+//
+//		out[i] = in1[i]-in2[i];
+//
+//	}
+//
+//	return i;
+//}
+//
+////Multiplication
+//DWORD Multiply(DWORD n, FLOAT *in1, FLOAT *in2, FLOAT *out)
+//{
+//	if(	!in1 || 
+//		!in2 || 
+//		!out)
+//		return FALSE;
+//
+//	DWORD i = NULL;
+//
+//	for(i = 0; i < n; i++){
+//
+//		out[i] = in1[i]*in2[i];
+//
+//	}
+//
+//	return i;
+//}
+//
+//DWORD Divide(DWORD n, FLOAT *in1, FLOAT *in2, FLOAT *out)
+//{
+//	if(	!in1 || 
+//		!in2 || 
+//		!out)
+//		return FALSE;
+//
+//	DWORD i = NULL;
+//
+//	for(i = 0; i < n; i++){
+//
+//		out[i] = in1[i]/in2[i];
+//
+//	}
+//
+//	return i;
+//}

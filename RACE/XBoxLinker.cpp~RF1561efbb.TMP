@@ -1,0 +1,16 @@
+#include "stdafx.h"
+
+#include "XBoxLinker.h"
+#include "XInput.h"
+
+//XBoxLinker provides functions for translating XINPUT_STATE variables in to windows messages
+//
+
+DWORD TranslateXBoxState(HWND hwnd, XINPUT_STATE xState)
+{
+
+	SendMessage(hwnd, XB_LEFTTHUMB, (WPARAM)xState.Gamepad.sThumbLX, (LPARAM)xState.Gamepad.sThumbLY);
+	SendMessage(hwnd, XB_RIGHTTHUMB, (WPARAM)xState.Gamepad.sThumbRX, (LPARAM)xState.Gamepad.sThumbRY);
+	
+
+}

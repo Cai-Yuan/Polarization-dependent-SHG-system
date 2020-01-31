@@ -1,0 +1,1566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\WIN32">
+      <UniqueIdentifier>{8044c6bf-ae3c-4bf3-959f-1c7b4f8c5662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\MDI">
+      <UniqueIdentifier>{fdaff9fc-73a7-43c0-9af9-ce5c9e8cf589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\MDI\Manifest">
+      <UniqueIdentifier>{68a84936-521d-4732-957c-d75f0736c57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\MDI\TextEditor">
+      <UniqueIdentifier>{b6ffcaac-4113-4de9-aa64-b450f2b48a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\MDI\Menu">
+      <UniqueIdentifier>{41b830a6-48c8-414c-8c02-a4332c2d0e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Tool Bar">
+      <UniqueIdentifier>{9cc31053-75f8-42f8-a490-942d6f2f6a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Tool Bar\CaptureToolBar">
+      <UniqueIdentifier>{86ebafec-06f0-4caf-9c56-e508cb2cc93d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\DataView">
+      <UniqueIdentifier>{fc63ebe8-0545-42cb-8c6f-74428fbb8b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Data Manager">
+      <UniqueIdentifier>{310a0703-d41c-4a25-8e7d-a0eca0375570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\ErrorManager">
+      <UniqueIdentifier>{de2fcb50-f352-4138-ae75-5d6a9a1986e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Subclass">
+      <UniqueIdentifier>{56536f94-e377-4248-a092-9dbaca2a66d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Text Window">
+      <UniqueIdentifier>{ec425beb-31a4-4c33-a057-c541c077c0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\CommandPrompt">
+      <UniqueIdentifier>{ab0224ee-ae73-4c09-8b8e-448e951b0bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Boot">
+      <UniqueIdentifier>{56709de0-2427-4bc9-bf7e-adcd6dde41a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\ProgressView">
+      <UniqueIdentifier>{864c1c54-7d05-4338-a568-3b0ddd8e5aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\HistogramView">
+      <UniqueIdentifier>{23aace29-b444-4e37-9340-3c56d9f864ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\DataBar">
+      <UniqueIdentifier>{bd1dd1e8-52a9-4440-a6ab-56ab0d1aa812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\DataBar\DataBar">
+      <UniqueIdentifier>{651f882d-70b8-47fc-9506-d5ab2d31190c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\DataBar\DataTab">
+      <UniqueIdentifier>{1714427e-c59d-4f63-8af0-1e97d2cddaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\DataBar\AlgorithmTree">
+      <UniqueIdentifier>{781d37d9-ce5f-42f9-8be7-784aa151de8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\TreeView">
+      <UniqueIdentifier>{5d0b36eb-c1c8-4df9-9b13-7f7de7cfa55e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\ReBar">
+      <UniqueIdentifier>{1438b20f-6834-43cd-acdd-2327721eb64d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes">
+      <UniqueIdentifier>{d5258982-193e-4303-a962-1b628a93bb23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\PropertyManager">
+      <UniqueIdentifier>{e64d2fc1-a043-428d-89f2-50e32f3fa9dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\StageProperties">
+      <UniqueIdentifier>{07453bf3-2fa2-4488-9ce7-f4b66c0923e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\DeviceManager">
+      <UniqueIdentifier>{2627ca97-e28f-49ba-96e2-880f4c86c2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\CameraProperties">
+      <UniqueIdentifier>{1a0470e0-286e-4b5d-8dbb-03440284a1ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\AlgorithmEditor">
+      <UniqueIdentifier>{e995e89c-7c40-4ec5-9801-93bf5f429610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\Axiovert200">
+      <UniqueIdentifier>{7a3059cb-06ed-452c-b85a-5e71973c5525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\Axiovert200\ExperimentProc">
+      <UniqueIdentifier>{62d3aa3d-0e49-435d-95d0-ac5c137fb528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\Axiovert200\AutoFocusProc">
+      <UniqueIdentifier>{74b160fa-3b9c-4146-afe6-fd26c5d8a75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\Axiovert200\MosaicProc">
+      <UniqueIdentifier>{4ff87511-adda-49e1-902f-db58376508cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\Axiovert200\ZStackProc">
+      <UniqueIdentifier>{76644d45-75e6-4fd1-952f-80fd78b1c321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\Axiovert200\MultiChannelProc">
+      <UniqueIdentifier>{9ad26739-7cf6-4818-a912-6a9557e7fbf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\Axiovert200\ObjectiveProc">
+      <UniqueIdentifier>{6b4d9b56-7ff1-40b1-a6e4-6545d678d6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\Axiovert200%28temp%29">
+      <UniqueIdentifier>{fb833df1-c032-4b00-91bc-88a3e2a0afe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\ReefWatchdog">
+      <UniqueIdentifier>{ee8e7eeb-1658-4f98-ab34-31d5dd0d351e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\ReefWatchdog\DeviceDlg">
+      <UniqueIdentifier>{14685cc9-ec92-48cb-a5b1-df878ad3a9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\ReefWatchdog\LightingDlg">
+      <UniqueIdentifier>{92954d7f-183c-4fbc-a456-07749a277943}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\ReefWatchdog\DosingDlg">
+      <UniqueIdentifier>{cfbd5df2-d5cd-4afe-b9a6-d78cb433a1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\ParticleTrackerDlg">
+      <UniqueIdentifier>{a38e581b-4f9d-487f-bc64-128849ba12bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\LaserMicroscope">
+      <UniqueIdentifier>{21586bcf-d8d4-4e65-956f-c37fbea558a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\LaserMicroscope\StageProc">
+      <UniqueIdentifier>{03378fd3-5843-4e80-9eea-280ed0bf2315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\LaserMicroscope\SystemProc">
+      <UniqueIdentifier>{51f2c331-a9b5-49b0-8992-40b7eab7ef48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\LaserMicroscope\DeviceProc">
+      <UniqueIdentifier>{39848c0a-e7ba-47ec-b33c-f91a745d579d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\LaserMicroscope\XBoxProc">
+      <UniqueIdentifier>{b5225e80-ad5b-4584-bce2-f348648c615c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\LaserMicroscope\DisplayProc">
+      <UniqueIdentifier>{b249ce11-a111-47aa-8f8a-ef7ab02b7364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\LaserMicroscope\TrackerProc">
+      <UniqueIdentifier>{14a6d77a-796a-4b42-939b-de69c8d1f068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\LaserMicroscope\AutoFocusProc">
+      <UniqueIdentifier>{364eac4a-d678-4875-b40a-8ba18818c063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\Dialog Boxes\TimeLapse">
+      <UniqueIdentifier>{0ea787af-a9b2-40f2-ae66-7f8c3b110724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\ListView">
+      <UniqueIdentifier>{498407dd-b505-4d1f-a7cd-d82000609e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\WndLink">
+      <UniqueIdentifier>{c7a57537-466b-4a2c-a769-b70fcff4f6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\DataFilter">
+      <UniqueIdentifier>{64c03ab5-a288-4e7c-8d1b-3ac686b0bd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\ParticleTracker">
+      <UniqueIdentifier>{0b828436-509c-48ae-83de-c02459fb233c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\DataPlot">
+      <UniqueIdentifier>{47828930-b36f-461a-be11-1b59cb124e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WIN32\DataView3D">
+      <UniqueIdentifier>{7c23c206-70b2-4f65-8780-05171edb3b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Types">
+      <UniqueIdentifier>{1ee6549e-2116-4864-b740-0c72a1519139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Types\TIFF">
+      <UniqueIdentifier>{f0d2927c-ecd8-46c8-aa15-0dec9e4032aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Types\PDM">
+      <UniqueIdentifier>{a2d0f283-f5a8-47f1-a4bd-396aef593440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Types\RAW">
+      <UniqueIdentifier>{e6d33a2f-dd93-4365-b52e-dde5dd818d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Types\BMP">
+      <UniqueIdentifier>{567f06fb-4f39-48cc-9130-3631e113820d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices">
+      <UniqueIdentifier>{46a4a5de-fd44-4a0b-a653-1d97bdd552af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\TT Robot">
+      <UniqueIdentifier>{fccf63cf-44e3-470d-8944-d5688c3b1440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\XBox Controller">
+      <UniqueIdentifier>{844796f8-8b9e-43d8-b665-6a75698e0f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\ZeissMicroscope">
+      <UniqueIdentifier>{1ceaa95b-330b-4691-a26c-fb5e3221abe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\Camera">
+      <UniqueIdentifier>{e263a7b9-5d6b-4801-81ce-11f376c98be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\Camera\BitFlow">
+      <UniqueIdentifier>{8b816009-a669-4771-965b-c5083f5e6ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\Camera\BitFlow\PhotonFocus">
+      <UniqueIdentifier>{538261fc-ff0c-430c-835b-5b56f580dc8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\Camera\PixeLINK">
+      <UniqueIdentifier>{c7d35e4b-9419-430f-beb5-e7a11d0b174f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\Camera\PixeLINK\A781">
+      <UniqueIdentifier>{b279717f-45e5-4c27-971b-77bda111bae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\Camera\Zeiss">
+      <UniqueIdentifier>{bdcc0b64-b806-4c81-959a-171337e1eeaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\Camera\Emulate">
+      <UniqueIdentifier>{77769e8e-5269-4308-b4fc-238d7877b2f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\Camera\Webcam">
+      <UniqueIdentifier>{a9191c51-e5ef-4a91-9a52-55818e6fc747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\Camera\Chameleon CMLN-13S2M">
+      <UniqueIdentifier>{859d5aae-8192-4c3a-9c7b-1d5ea67c2a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\ReefWatchdog">
+      <UniqueIdentifier>{55323791-349c-405c-87d0-6f3289f3dc06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\Tools">
+      <UniqueIdentifier>{a15416bc-738d-4713-b997-bba864caeadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\UNO32">
+      <UniqueIdentifier>{95509c16-f0cd-476a-97a7-bc5e00c90dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\SC10 Shutter">
+      <UniqueIdentifier>{ab53f87e-504f-45e6-ba44-ba62f7ae39f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\A3200">
+      <UniqueIdentifier>{26903993-51b7-47ca-bce4-7593f126ef03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices\MotorWatchdog">
+      <UniqueIdentifier>{fefc07ae-861c-4e37-88d1-857f7cc09ce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image">
+      <UniqueIdentifier>{c9630ccc-41c2-4285-b2e5-dfb2d0e9dbad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image\Stack Functions">
+      <UniqueIdentifier>{9d9a5b5c-0481-43d0-b677-e64ffd608f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types">
+      <UniqueIdentifier>{3edbdee8-f0d0-4e29-8171-318d5a07eb41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\Point">
+      <UniqueIdentifier>{b0a4d081-e1fb-46e4-91c2-d0b630df0f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\Vector">
+      <UniqueIdentifier>{d5801b25-92a9-48f4-a3e2-8ecdda8936af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\Line">
+      <UniqueIdentifier>{05a76541-4494-4514-a86c-c544c6db1709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\Circle">
+      <UniqueIdentifier>{8606b067-8b12-4512-b2ed-9c7154a99736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\Ellipse">
+      <UniqueIdentifier>{eeec29f7-99f7-4fb0-bf76-d0c95039c918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\Particle">
+      <UniqueIdentifier>{ace251f7-411b-4efd-bddc-404255b0c8eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\String">
+      <UniqueIdentifier>{9874bb33-ab37-43e6-917c-a094c8524139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\Polygon">
+      <UniqueIdentifier>{3890632d-94de-4d08-80fc-e72f0a6d2370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\Trajectory">
+      <UniqueIdentifier>{7ae4f9f6-cd90-40d0-8a6b-ae94b36e90ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\Object">
+      <UniqueIdentifier>{a226eaa9-21df-4fd1-874f-1ea5d8c24fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Types\Text">
+      <UniqueIdentifier>{8a3161b3-76b0-4ea1-bc81-d229a01b6e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing">
+      <UniqueIdentifier>{3f0a55a6-d66f-41d9-98cb-12472208961a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Schmidt Edge">
+      <UniqueIdentifier>{5896c44a-88ff-449f-bf53-5ea55aba6d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Particle Track">
+      <UniqueIdentifier>{9d5116ae-2420-4143-abf3-1085b9490aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Image Subtraction">
+      <UniqueIdentifier>{056dc54b-ac5d-45a9-87a5-44798d5537e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Image Operators">
+      <UniqueIdentifier>{49819c0a-ee98-499f-bba2-6c13aa454399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Contouring">
+      <UniqueIdentifier>{58c9fb46-7117-483d-9b9e-6c4dd3cbffdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Contouring\Pavlidis Contour">
+      <UniqueIdentifier>{03f603d4-637b-468e-9951-1d67b6bc78eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Contouring\Marching Squares">
+      <UniqueIdentifier>{9cdd2ed6-5486-4c01-b904-3c25f3e90db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Threshold">
+      <UniqueIdentifier>{ae5cab7d-a3f7-4a94-a32d-fe6fd954f850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Suppression">
+      <UniqueIdentifier>{afd0b7b4-f8c9-4970-b7b2-599abdcfb924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Blob Detect">
+      <UniqueIdentifier>{ab035a2b-6fc4-4c14-aa73-2fd206faf31a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Zoom">
+      <UniqueIdentifier>{81c3c6d7-5ad5-48ea-b069-73eb9cb69cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Conversion">
+      <UniqueIdentifier>{1c8fde7a-f46b-4e6c-97b3-be0f603c5722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Integral Image">
+      <UniqueIdentifier>{62c6108a-045a-49db-b170-6643d08a275a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Histogram">
+      <UniqueIdentifier>{0f06948a-0f85-4f26-9041-51c9c3cf23db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Stretch">
+      <UniqueIdentifier>{99825001-f1a5-4f57-96ad-de3a9641d40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Filters">
+      <UniqueIdentifier>{5eb01feb-9dd4-4d75-8e40-6d3cb8871d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Filters\Gaussian Blurr">
+      <UniqueIdentifier>{8f74013f-e76d-416c-a525-bf96341313a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Filters\Median Filter">
+      <UniqueIdentifier>{9ad53b44-1e86-4184-a461-306750bb5b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Chamfer">
+      <UniqueIdentifier>{8c6df956-b170-40fc-8865-ee04ca107669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\ZStack">
+      <UniqueIdentifier>{5c0e896e-05c3-4db2-ac3d-0e81a4e121ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Scale">
+      <UniqueIdentifier>{bdcf47f6-4b30-4794-b9b8-a6788a5b54c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Mosaic">
+      <UniqueIdentifier>{144b51db-45b3-4adc-b202-4dc4a4168ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Morph Operators">
+      <UniqueIdentifier>{f1facd29-b633-4136-97c0-2521f16d487c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Mask">
+      <UniqueIdentifier>{5bae09fa-e9a6-45b0-960c-bc6f46da258b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\AlphaBlend">
+      <UniqueIdentifier>{8a1b3cdd-bca2-47c7-a4f9-bead67fb31ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Flood Fill">
+      <UniqueIdentifier>{45016815-e3e3-416c-b5be-0ec3b7416a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Binary">
+      <UniqueIdentifier>{8a6ca1c5-3a9f-4cf6-9562-fbb143ab59fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math">
+      <UniqueIdentifier>{d3519cca-62b7-4b91-8f93-187efdd7327a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Magnitude">
+      <UniqueIdentifier>{0e792246-0ccb-48f2-9693-74ce3f7ea351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Sign">
+      <UniqueIdentifier>{925fc1b0-0008-4e8a-b913-fc10f668ca94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Subtract">
+      <UniqueIdentifier>{77e32316-0e3c-45f0-9b1f-c5caf44b7bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Statistics">
+      <UniqueIdentifier>{56f4bb6c-7bc0-4596-a251-12e86be96b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Statistics\Mean">
+      <UniqueIdentifier>{fec4bb92-9492-4508-97a8-3cd2fd18915d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Statistics\StdDev">
+      <UniqueIdentifier>{f97dc8da-61bd-4866-b4c4-a46557a337b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Iterations">
+      <UniqueIdentifier>{4a5953f7-5eb8-45c5-adb2-7519f28ae0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Difference">
+      <UniqueIdentifier>{8bbf6441-63e2-4d2d-ae33-7917af4c4b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\MaxMin">
+      <UniqueIdentifier>{87f9772c-b1c8-468d-ae71-41ec84e34968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Window Data">
+      <UniqueIdentifier>{1dc80ffb-5ad9-4002-b0e7-4b9a2e1c8b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Scale">
+      <UniqueIdentifier>{c1485f70-16c5-482e-9680-e35011152817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Sum">
+      <UniqueIdentifier>{8faae780-6821-4247-82c6-aa9a233bd33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Boolean">
+      <UniqueIdentifier>{f8387ce1-52a4-431d-bbc4-ec84dbd805a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Invert">
+      <UniqueIdentifier>{3e0173f9-92a6-40ff-b90d-00158f0cc249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Power">
+      <UniqueIdentifier>{2360a470-576a-487b-a0c4-285f3a6becf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Addition">
+      <UniqueIdentifier>{7d25be78-d133-4d57-9820-647d7c93cdb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Limit">
+      <UniqueIdentifier>{03b8a9d6-a4f2-45d7-a2eb-6678cb82e11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Average">
+      <UniqueIdentifier>{b4a64d9c-721f-4b6f-84b6-ff1d0e163197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Math\Norm">
+      <UniqueIdentifier>{5bb11ae6-c09e-471d-9e30-de2bac61d27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\Contrast">
+      <UniqueIdentifier>{3a3324b0-62e2-43b3-8f57-d5e075fb01f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Image Processing\FFTW">
+      <UniqueIdentifier>{e0086e8c-bb4b-4069-9dca-b8ccc0c87722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithms">
+      <UniqueIdentifier>{18f3e0c8-2704-4495-93f7-1deeacb19699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithms\Motion Correspondance">
+      <UniqueIdentifier>{75bb4f47-1153-4319-a5c2-d2fe2de879be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thread">
+      <UniqueIdentifier>{daaaecde-0880-4692-aab8-51bf28a65ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Management">
+      <UniqueIdentifier>{b033a685-2123-4fa5-bcd3-3e3fd04f8478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Management\Archive">
+      <UniqueIdentifier>{b235e625-314c-4d8b-a4bf-b33841843605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\File Management\FilePath">
+      <UniqueIdentifier>{4939a06a-19fb-420c-a185-fab1673c8082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Holography">
+      <UniqueIdentifier>{79dd7f01-51c9-42cf-a0e6-79b341a3bd64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\ReBar Reference">
+      <UniqueIdentifier>{f03654ce-5f80-47c8-b8ce-22fc50379552}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplaySurface.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RACE.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Source Files\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterWnd.h">
+      <Filter>Source Files\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolsWin32.h">
+      <Filter>Source Files\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="MDI.h">
+      <Filter>Source Files\WIN32\MDI</Filter>
+    </ClInclude>
+    <ClInclude Include="MDIProc.h">
+      <Filter>Source Files\WIN32\MDI</Filter>
+    </ClInclude>
+    <ClInclude Include="Manifest.h">
+      <Filter>Source Files\WIN32\MDI\Manifest</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEditor.h">
+      <Filter>Source Files\WIN32\MDI\TextEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files\WIN32\MDI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolBar.h">
+      <Filter>Source Files\WIN32\Tool Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptureToolBar.h">
+      <Filter>Source Files\WIN32\Tool Bar\CaptureToolBar</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPreview.h">
+      <Filter>Source Files\WIN32\DataView</Filter>
+    </ClInclude>
+    <ClInclude Include="DataView.h">
+      <Filter>Source Files\WIN32\DataView</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Source Files\WIN32\Data Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowError.h">
+      <Filter>Source Files\WIN32\ErrorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Subclass.h">
+      <Filter>Source Files\WIN32\Subclass</Filter>
+    </ClInclude>
+    <ClInclude Include="TextWindow.h">
+      <Filter>Source Files\WIN32\Text Window</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandPrompt.h">
+      <Filter>Source Files\WIN32\CommandPrompt</Filter>
+    </ClInclude>
+    <ClInclude Include="Boot.h">
+      <Filter>Source Files\WIN32\Boot</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressView.h">
+      <Filter>Source Files\WIN32\ProgressView</Filter>
+    </ClInclude>
+    <ClInclude Include="HistogramView.h">
+      <Filter>Source Files\WIN32\HistogramView</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBar.h">
+      <Filter>Source Files\WIN32\DataBar\DataBar</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTab.h">
+      <Filter>Source Files\WIN32\DataBar\DataTab</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmTree.h">
+      <Filter>Source Files\WIN32\DataBar\AlgorithmTree</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeViewFxns.h">
+      <Filter>Source Files\WIN32\TreeView</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeViewSubclass.h">
+      <Filter>Source Files\WIN32\TreeView</Filter>
+    </ClInclude>
+    <ClInclude Include="ReBarRACE.h">
+      <Filter>Source Files\WIN32\ReBar</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyManager.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\PropertyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StageProperties.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\StageProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraProperties.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\CameraProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmWizard.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\AlgorithmEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="ExperimentOptions.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200\ExperimentProc</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoFocusDlg.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200\AutoFocusProc</Filter>
+    </ClInclude>
+    <ClInclude Include="MosaicDlg.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200\MosaicProc</Filter>
+    </ClInclude>
+    <ClInclude Include="ZStackDlg.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200\ZStackProc</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiChannelDlg.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200\MultiChannelProc</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeissObjectiveDlg.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200\ObjectiveProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Axiovert200Dlg.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200%28temp%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ReefWatchdogDlg.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\ReefWatchdog</Filter>
+    </ClInclude>
+    <ClInclude Include="ReefWatchdogDevice.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\ReefWatchdog\DeviceDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ReefWatchdogLighting.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\ReefWatchdog\LightingDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ReefWatchdogDosing.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\ReefWatchdog\DosingDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleTrackerDlg.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\ParticleTrackerDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserMicroscope.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope</Filter>
+    </ClInclude>
+    <ClInclude Include="Microscope.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope</Filter>
+    </ClInclude>
+    <ClInclude Include="StageProc.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\StageProc</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemProc.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\SystemProc</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceProc.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\DeviceProc</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayProc.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\DisplayProc</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackerProc.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\TrackerProc</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoFocusProc.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\AutoFocusProc</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeLapse.h">
+      <Filter>Source Files\WIN32\Dialog Boxes\TimeLapse</Filter>
+    </ClInclude>
+    <ClInclude Include="ListView.h">
+      <Filter>Source Files\WIN32\ListView</Filter>
+    </ClInclude>
+    <ClInclude Include="WndLink.h">
+      <Filter>Source Files\WIN32\WndLink</Filter>
+    </ClInclude>
+    <ClInclude Include="DataFilter.h">
+      <Filter>Source Files\WIN32\DataFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleTracker.h">
+      <Filter>Source Files\WIN32\ParticleTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPlot.h">
+      <Filter>Source Files\WIN32\DataPlot</Filter>
+    </ClInclude>
+    <ClInclude Include="DataView3D.h">
+      <Filter>Source Files\WIN32\DataView3D</Filter>
+    </ClInclude>
+    <ClInclude Include="DataViewDep.h">
+      <Filter>Source Files\WIN32\DataView3D</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadTIFF.h">
+      <Filter>Source Files\File Types\TIFF</Filter>
+    </ClInclude>
+    <ClInclude Include="PDM.h">
+      <Filter>Source Files\File Types\PDM</Filter>
+    </ClInclude>
+    <ClInclude Include="RAW.h">
+      <Filter>Source Files\File Types\RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="BMP.h">
+      <Filter>Source Files\File Types\BMP</Filter>
+    </ClInclude>
+    <ClInclude Include="TTRobot.h">
+      <Filter>Source Files\Devices\TT Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="XBox.h">
+      <Filter>Source Files\Devices\XBox Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="XBoxLinker.h">
+      <Filter>Source Files\Devices\XBox Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeissMicroscope.h">
+      <Filter>Source Files\Devices\ZeissMicroscope</Filter>
+    </ClInclude>
+    <ClInclude Include="PixeLINK.h">
+      <Filter>Source Files\Devices\Camera\PixeLINK\A781</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeissCam.h">
+      <Filter>Source Files\Devices\Camera\Zeiss</Filter>
+    </ClInclude>
+    <ClInclude Include="EmulateCamera.h">
+      <Filter>Source Files\Devices\Camera\Emulate</Filter>
+    </ClInclude>
+    <ClInclude Include="Webcam.h">
+      <Filter>Source Files\Devices\Camera\Webcam</Filter>
+    </ClInclude>
+    <ClInclude Include="Chameleon CMLN-13S2M.h">
+      <Filter>Source Files\Devices\Camera\Chameleon CMLN-13S2M</Filter>
+    </ClInclude>
+    <ClInclude Include="ReefWatchdog.h">
+      <Filter>Source Files\Devices\ReefWatchdog</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumerateDevice.h">
+      <Filter>Source Files\Devices\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="UNO32.h">
+      <Filter>Source Files\Devices\UNO32</Filter>
+    </ClInclude>
+    <ClInclude Include="SC10Shutter.h">
+      <Filter>Source Files\Devices\SC10 Shutter</Filter>
+    </ClInclude>
+    <ClInclude Include="A3200Stage.h">
+      <Filter>Source Files\Devices\A3200</Filter>
+    </ClInclude>
+    <ClInclude Include="MotorWatchdog.h">
+      <Filter>Source Files\Devices\MotorWatchdog</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Source Files\Image\Stack Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes.h">
+      <Filter>Source Files\Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Source Files\Data Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Source Files\Data Types\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Source Files\Data Types\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellipse.h">
+      <Filter>Source Files\Data Types\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Source Files\Data Types\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Source Files\Data Types\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Source Files\Data Types\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Source Files\Data Types\String</Filter>
+    </ClInclude>
+    <ClInclude Include="StringFxns.h">
+      <Filter>Source Files\Data Types\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Source Files\Data Types\Polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="Trajectory.h">
+      <Filter>Source Files\Data Types\Trajectory</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Source Files\Data Types\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Source Files\Data Types\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="SchmidtEdge.h">
+      <Filter>Source Files\Image Processing\Schmidt Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleTrack.h">
+      <Filter>Source Files\Image Processing\Particle Track</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadParticleTrack.h">
+      <Filter>Source Files\Image Processing\Particle Track</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSubtract.h">
+      <Filter>Source Files\Image Processing\Image Subtraction</Filter>
+    </ClInclude>
+    <ClInclude Include="DerivativeOperator.h">
+      <Filter>Source Files\Image Processing\Image Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="LogOperator.h">
+      <Filter>Source Files\Image Processing\Image Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Range.h">
+      <Filter>Source Files\Image Processing\Image Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Region.h">
+      <Filter>Source Files\Image Processing\Image Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Contour.h">
+      <Filter>Source Files\Image Processing\Contouring</Filter>
+    </ClInclude>
+    <ClInclude Include="TheoPavlidis.h">
+      <Filter>Source Files\Image Processing\Contouring</Filter>
+    </ClInclude>
+    <ClInclude Include="PavlidisContour.h">
+      <Filter>Source Files\Image Processing\Contouring\Pavlidis Contour</Filter>
+    </ClInclude>
+    <ClInclude Include="MarchingSquares.h">
+      <Filter>Source Files\Image Processing\Contouring\Marching Squares</Filter>
+    </ClInclude>
+    <ClInclude Include="Threshold.h">
+      <Filter>Source Files\Image Processing\Threshold</Filter>
+    </ClInclude>
+    <ClInclude Include="Suppression.h">
+      <Filter>Source Files\Image Processing\Suppression</Filter>
+    </ClInclude>
+    <ClInclude Include="LoG.h">
+      <Filter>Source Files\Image Processing\Blob Detect</Filter>
+    </ClInclude>
+    <ClInclude Include="Zoom.h">
+      <Filter>Source Files\Image Processing\Zoom</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageConversion.h">
+      <Filter>Source Files\Image Processing\Conversion</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegralImage.h">
+      <Filter>Source Files\Image Processing\Integral Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Histogram.h">
+      <Filter>Source Files\Image Processing\Histogram</Filter>
+    </ClInclude>
+    <ClInclude Include="Stretch.h">
+      <Filter>Source Files\Image Processing\Stretch</Filter>
+    </ClInclude>
+    <ClInclude Include="GaussianBlurr.h">
+      <Filter>Source Files\Image Processing\Filters\Gaussian Blurr</Filter>
+    </ClInclude>
+    <ClInclude Include="MedianFilter.h">
+      <Filter>Source Files\Image Processing\Filters\Median Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Chamfer.h">
+      <Filter>Source Files\Image Processing\Chamfer</Filter>
+    </ClInclude>
+    <ClInclude Include="ZStack.h">
+      <Filter>Source Files\Image Processing\ZStack</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageScale.h">
+      <Filter>Source Files\Image Processing\Scale</Filter>
+    </ClInclude>
+    <ClInclude Include="Mosaic.h">
+      <Filter>Source Files\Image Processing\Mosaic</Filter>
+    </ClInclude>
+    <ClInclude Include="MorphOperators.h">
+      <Filter>Source Files\Image Processing\Morph Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="Mask.h">
+      <Filter>Source Files\Image Processing\Mask</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaBlend.h">
+      <Filter>Source Files\Image Processing\AlphaBlend</Filter>
+    </ClInclude>
+    <ClInclude Include="FloodFill.h">
+      <Filter>Source Files\Image Processing\Flood Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="FloodFillEx.h">
+      <Filter>Source Files\Image Processing\Flood Fill</Filter>
+    </ClInclude>
+    <ClInclude Include="Binarize.h">
+      <Filter>Source Files\Image Processing\Binary</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageMath.h">
+      <Filter>Source Files\Image Processing\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Magnitude.h">
+      <Filter>Source Files\Image Processing\Math\Magnitude</Filter>
+    </ClInclude>
+    <ClInclude Include="Sign.h">
+      <Filter>Source Files\Image Processing\Math\Sign</Filter>
+    </ClInclude>
+    <ClInclude Include="Subtract.h">
+      <Filter>Source Files\Image Processing\Math\Subtract</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics.h">
+      <Filter>Source Files\Image Processing\Math\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistics2D.h">
+      <Filter>Source Files\Image Processing\Math\Statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterations.h">
+      <Filter>Source Files\Image Processing\Math\Iterations</Filter>
+    </ClInclude>
+    <ClInclude Include="Difference.h">
+      <Filter>Source Files\Image Processing\Math\Difference</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxMin.h">
+      <Filter>Source Files\Image Processing\Math\MaxMin</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowData.h">
+      <Filter>Source Files\Image Processing\Math\Window Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Scale.h">
+      <Filter>Source Files\Image Processing\Math\Scale</Filter>
+    </ClInclude>
+    <ClInclude Include="Sum.h">
+      <Filter>Source Files\Image Processing\Math\Sum</Filter>
+    </ClInclude>
+    <ClInclude Include="Boolean.h">
+      <Filter>Source Files\Image Processing\Math\Boolean</Filter>
+    </ClInclude>
+    <ClInclude Include="Invert.h">
+      <Filter>Source Files\Image Processing\Math\Invert</Filter>
+    </ClInclude>
+    <ClInclude Include="Power.h">
+      <Filter>Source Files\Image Processing\Math\Power</Filter>
+    </ClInclude>
+    <ClInclude Include="Addition.h">
+      <Filter>Source Files\Image Processing\Math\Addition</Filter>
+    </ClInclude>
+    <ClInclude Include="Limit.h">
+      <Filter>Source Files\Image Processing\Math\Limit</Filter>
+    </ClInclude>
+    <ClInclude Include="Average.h">
+      <Filter>Source Files\Image Processing\Math\Average</Filter>
+    </ClInclude>
+    <ClInclude Include="Norm.h">
+      <Filter>Source Files\Image Processing\Math\Norm</Filter>
+    </ClInclude>
+    <ClInclude Include="Contrast.h">
+      <Filter>Source Files\Image Processing\Contrast</Filter>
+    </ClInclude>
+    <ClInclude Include="FFTW.h">
+      <Filter>Source Files\Image Processing\FFTW</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmFxns.h">
+      <Filter>Source Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionCorrespondence.h">
+      <Filter>Source Files\Algorithms\Motion Correspondance</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmThread.h">
+      <Filter>Source Files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="CaptureThreads.h">
+      <Filter>Source Files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateThreadedWindow.h">
+      <Filter>Source Files\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Archive.h">
+      <Filter>Source Files\File Management\Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePath.h">
+      <Filter>Source Files\File Management\FilePath</Filter>
+    </ClInclude>
+    <ClInclude Include="GetFolderPath.h">
+      <Filter>Source Files\File Management\FilePath</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenFilePath.h">
+      <Filter>Source Files\File Management\FilePath</Filter>
+    </ClInclude>
+    <ClInclude Include="Holography.h">
+      <Filter>Source Files\Holography</Filter>
+    </ClInclude>
+    <ClInclude Include="RACEGDI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DisplaySurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RACE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp">
+      <Filter>Source Files\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterWnd.cpp">
+      <Filter>Source Files\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolsWIN32.cpp">
+      <Filter>Source Files\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildMDIProcTemplate.cpp">
+      <Filter>Source Files\WIN32\MDI</Filter>
+    </ClCompile>
+    <ClCompile Include="MDI.cpp">
+      <Filter>Source Files\WIN32\MDI</Filter>
+    </ClCompile>
+    <ClCompile Include="MDIProc.cpp">
+      <Filter>Source Files\WIN32\MDI</Filter>
+    </ClCompile>
+    <ClCompile Include="Manifest.cpp">
+      <Filter>Source Files\WIN32\MDI\Manifest</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditor.cpp">
+      <Filter>Source Files\WIN32\MDI\TextEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\WIN32\MDI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolBar.cpp">
+      <Filter>Source Files\WIN32\Tool Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureToolBar.cpp">
+      <Filter>Source Files\WIN32\Tool Bar\CaptureToolBar</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPreview.cpp">
+      <Filter>Source Files\WIN32\DataView</Filter>
+    </ClCompile>
+    <ClCompile Include="DataView.cpp">
+      <Filter>Source Files\WIN32\DataView</Filter>
+    </ClCompile>
+    <ClCompile Include="DataViewProc.cpp">
+      <Filter>Source Files\WIN32\DataView</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Source Files\WIN32\Data Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManagerProc.cpp">
+      <Filter>Source Files\WIN32\Data Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrowError.cpp">
+      <Filter>Source Files\WIN32\ErrorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Subclass.cpp">
+      <Filter>Source Files\WIN32\Subclass</Filter>
+    </ClCompile>
+    <ClCompile Include="TextWindow.cpp">
+      <Filter>Source Files\WIN32\Text Window</Filter>
+    </ClCompile>
+    <ClCompile Include="ComandPromptProc.cpp">
+      <Filter>Source Files\WIN32\CommandPrompt</Filter>
+    </ClCompile>
+    <ClCompile Include="Boot.cpp">
+      <Filter>Source Files\WIN32\Boot</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgressViewProc.cpp">
+      <Filter>Source Files\WIN32\ProgressView</Filter>
+    </ClCompile>
+    <ClCompile Include="HistogramViewProc.cpp">
+      <Filter>Source Files\WIN32\HistogramView</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBarProc.cpp">
+      <Filter>Source Files\WIN32\DataBar\DataBar</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTab.cpp">
+      <Filter>Source Files\WIN32\DataBar\DataTab</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmTree.cpp">
+      <Filter>Source Files\WIN32\DataBar\AlgorithmTree</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeViewFxns.cpp">
+      <Filter>Source Files\WIN32\TreeView</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeViewSubclass.cpp">
+      <Filter>Source Files\WIN32\TreeView</Filter>
+    </ClCompile>
+    <ClCompile Include="RebarRACE.cpp">
+      <Filter>Source Files\WIN32\ReBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyManager.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\PropertyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StagePropertiesProc.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\StageProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManager.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\DeviceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraProperties.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\CameraProperties</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmWizard.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\AlgorithmEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="ExperimentOptionsDlg.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200\ExperimentProc</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoFocusDlg.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200\AutoFocusProc</Filter>
+    </ClCompile>
+    <ClCompile Include="MosaicDlg.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200\MosaicProc</Filter>
+    </ClCompile>
+    <ClCompile Include="ZStackDlg.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200\ZStackProc</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiChannelDlg.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200\MultiChannelProc</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeissObjectiveDlg.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200\ObjectiveProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Axiovert200Dlg.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\Axiovert200%28temp%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ReefWatchdogDlg.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\ReefWatchdog</Filter>
+    </ClCompile>
+    <ClCompile Include="ReefWatchdogDeviceDlg.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\ReefWatchdog\DeviceDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ReefWatchdogLightingDlg.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\ReefWatchdog\LightingDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ReefWatchdogDosingDlg.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\ReefWatchdog\DosingDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleTrackerDlgProc.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\ParticleTrackerDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserMicroscopeProc.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserMicroscopeThread.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope</Filter>
+    </ClCompile>
+    <ClCompile Include="StageProc.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\StageProc</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserMicroscope.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\SystemProc</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemProc.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\SystemProc</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceProc.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\DeviceProc</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayProc.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\DisplayProc</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackerProc.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\TrackerProc</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoFocus.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\AutoFocusProc</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoFocusProc.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\LaserMicroscope\AutoFocusProc</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeLapseProc.cpp">
+      <Filter>Source Files\WIN32\Dialog Boxes\TimeLapse</Filter>
+    </ClCompile>
+    <ClCompile Include="ListViewProc.cpp">
+      <Filter>Source Files\WIN32\ListView</Filter>
+    </ClCompile>
+    <ClCompile Include="WndLink.cpp">
+      <Filter>Source Files\WIN32\WndLink</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFilter.cpp">
+      <Filter>Source Files\WIN32\DataFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFilterProc.cpp">
+      <Filter>Source Files\WIN32\DataFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleTracker.cpp">
+      <Filter>Source Files\WIN32\ParticleTracker</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleTrackerProc.cpp">
+      <Filter>Source Files\WIN32\ParticleTracker</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPlotProc.cpp">
+      <Filter>Source Files\WIN32\DataPlot</Filter>
+    </ClCompile>
+    <ClCompile Include="DataView3D.cpp">
+      <Filter>Source Files\WIN32\DataView3D</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadTIFF.cpp">
+      <Filter>Source Files\File Types\TIFF</Filter>
+    </ClCompile>
+    <ClCompile Include="PDM.cpp">
+      <Filter>Source Files\File Types\PDM</Filter>
+    </ClCompile>
+    <ClCompile Include="PDMBuffer.cpp">
+      <Filter>Source Files\File Types\PDM</Filter>
+    </ClCompile>
+    <ClCompile Include="RAW.cpp">
+      <Filter>Source Files\File Types\RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="BMP.cpp">
+      <Filter>Source Files\File Types\BMP</Filter>
+    </ClCompile>
+    <ClCompile Include="TTRobot.cpp">
+      <Filter>Source Files\Devices\TT Robot</Filter>
+    </ClCompile>
+    <ClCompile Include="XBox.cpp">
+      <Filter>Source Files\Devices\XBox Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="XBoxLinker.cpp">
+      <Filter>Source Files\Devices\XBox Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="XBoxLinkerProc.cpp">
+      <Filter>Source Files\Devices\XBox Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeissExperimentProc.cpp">
+      <Filter>Source Files\Devices\ZeissMicroscope</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeissMicroscope.cpp">
+      <Filter>Source Files\Devices\ZeissMicroscope</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeissMicroscopeManagerProc.cpp">
+      <Filter>Source Files\Devices\ZeissMicroscope</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeissMicroscopeProc.cpp">
+      <Filter>Source Files\Devices\ZeissMicroscope</Filter>
+    </ClCompile>
+    <ClCompile Include="BitFlow.cpp">
+      <Filter>Source Files\Devices\Camera\BitFlow</Filter>
+    </ClCompile>
+    <ClCompile Include="PhotonFocusThread.cpp">
+      <Filter>Source Files\Devices\Camera\BitFlow\PhotonFocus</Filter>
+    </ClCompile>
+    <ClCompile Include="PixeLINKThread.cpp">
+      <Filter>Source Files\Devices\Camera\PixeLINK\A781</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeissCam.cpp">
+      <Filter>Source Files\Devices\Camera\Zeiss</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeissCamCapture.cpp">
+      <Filter>Source Files\Devices\Camera\Zeiss</Filter>
+    </ClCompile>
+    <ClCompile Include="EmulateCamera.cpp">
+      <Filter>Source Files\Devices\Camera\Emulate</Filter>
+    </ClCompile>
+    <ClCompile Include="Webcam.cpp">
+      <Filter>Source Files\Devices\Camera\Webcam</Filter>
+    </ClCompile>
+    <ClCompile Include="Chameleon CMLN-13S2M.cpp">
+      <Filter>Source Files\Devices\Camera\Chameleon CMLN-13S2M</Filter>
+    </ClCompile>
+    <ClCompile Include="ChameleonThread.cpp">
+      <Filter>Source Files\Devices\Camera\Chameleon CMLN-13S2M</Filter>
+    </ClCompile>
+    <ClCompile Include="ReefWatchdogProc.cpp">
+      <Filter>Source Files\Devices\ReefWatchdog</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumerateDevice.cpp">
+      <Filter>Source Files\Devices\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="A3200Thread.cpp">
+      <Filter>Source Files\Devices\UNO32</Filter>
+    </ClCompile>
+    <ClCompile Include="UNO32Proc.cpp">
+      <Filter>Source Files\Devices\UNO32</Filter>
+    </ClCompile>
+    <ClCompile Include="SC10LinkerProc.cpp">
+      <Filter>Source Files\Devices\SC10 Shutter</Filter>
+    </ClCompile>
+    <ClCompile Include="A3200Stage.cpp">
+      <Filter>Source Files\Devices\A3200</Filter>
+    </ClCompile>
+    <ClCompile Include="MotorWatchdogProc.cpp">
+      <Filter>Source Files\Devices\MotorWatchdog</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>Source Files\Image\Stack Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawPoint.cpp">
+      <Filter>Source Files\Data Types\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Data Types\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files\Data Types\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Source Files\Data Types\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\Data Types\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Ellipse.cpp">
+      <Filter>Source Files\Data Types\Ellipse</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Data Types\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Source Files\Data Types\String</Filter>
+    </ClCompile>
+    <ClCompile Include="StringFxns.cpp">
+      <Filter>Source Files\Data Types\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Source Files\Data Types\Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="Trajectory.cpp">
+      <Filter>Source Files\Data Types\Trajectory</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Data Types\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\Data Types\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="SchmidtEdge.cpp">
+      <Filter>Source Files\Image Processing\Schmidt Edge</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleTrack.cpp">
+      <Filter>Source Files\Image Processing\Particle Track</Filter>
+    </ClCompile>
+    <ClCompile Include="TFPT.cpp">
+      <Filter>Source Files\Image Processing\Particle Track</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadParticleTrack.cpp">
+      <Filter>Source Files\Image Processing\Particle Track</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSubtract.cpp">
+      <Filter>Source Files\Image Processing\Image Subtraction</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivativeOperator.cpp">
+      <Filter>Source Files\Image Processing\Image Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="LogOperator.cpp">
+      <Filter>Source Files\Image Processing\Image Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Range.cpp">
+      <Filter>Source Files\Image Processing\Image Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Region.cpp">
+      <Filter>Source Files\Image Processing\Image Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour.cpp">
+      <Filter>Source Files\Image Processing\Contouring</Filter>
+    </ClCompile>
+    <ClCompile Include="TheoPavlidis.cpp">
+      <Filter>Source Files\Image Processing\Contouring</Filter>
+    </ClCompile>
+    <ClCompile Include="PavlidisContour.cpp">
+      <Filter>Source Files\Image Processing\Contouring\Pavlidis Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="MarchingSquares.cpp">
+      <Filter>Source Files\Image Processing\Contouring\Marching Squares</Filter>
+    </ClCompile>
+    <ClCompile Include="Threshold.cpp">
+      <Filter>Source Files\Image Processing\Threshold</Filter>
+    </ClCompile>
+    <ClCompile Include="Suppression.cpp">
+      <Filter>Source Files\Image Processing\Suppression</Filter>
+    </ClCompile>
+    <ClCompile Include="LoG.cpp">
+      <Filter>Source Files\Image Processing\Blob Detect</Filter>
+    </ClCompile>
+    <ClCompile Include="Zoom.cpp">
+      <Filter>Source Files\Image Processing\Zoom</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageConversion.cpp">
+      <Filter>Source Files\Image Processing\Conversion</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegralImage.cpp">
+      <Filter>Source Files\Image Processing\Integral Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Histogram.cpp">
+      <Filter>Source Files\Image Processing\Histogram</Filter>
+    </ClCompile>
+    <ClCompile Include="Stretch.cpp">
+      <Filter>Source Files\Image Processing\Stretch</Filter>
+    </ClCompile>
+    <ClCompile Include="GaussianBlurr.cpp">
+      <Filter>Source Files\Image Processing\Filters\Gaussian Blurr</Filter>
+    </ClCompile>
+    <ClCompile Include="MedianFilter.cpp">
+      <Filter>Source Files\Image Processing\Filters\Median Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Chamfer.cpp">
+      <Filter>Source Files\Image Processing\Chamfer</Filter>
+    </ClCompile>
+    <ClCompile Include="ZStack.cpp">
+      <Filter>Source Files\Image Processing\ZStack</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageScale.cpp">
+      <Filter>Source Files\Image Processing\Scale</Filter>
+    </ClCompile>
+    <ClCompile Include="Mosaic.cpp">
+      <Filter>Source Files\Image Processing\Mosaic</Filter>
+    </ClCompile>
+    <ClCompile Include="MorphOperators.cpp">
+      <Filter>Source Files\Image Processing\Morph Operators</Filter>
+    </ClCompile>
+    <ClCompile Include="Mask.cpp">
+      <Filter>Source Files\Image Processing\Mask</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaBlend.cpp">
+      <Filter>Source Files\Image Processing\AlphaBlend</Filter>
+    </ClCompile>
+    <ClCompile Include="FloodFill.cpp">
+      <Filter>Source Files\Image Processing\Flood Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="FloodFillEx.cpp">
+      <Filter>Source Files\Image Processing\Flood Fill</Filter>
+    </ClCompile>
+    <ClCompile Include="Binarize.cpp">
+      <Filter>Source Files\Image Processing\Binary</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageMath.cpp">
+      <Filter>Source Files\Image Processing\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Magnitude.cpp">
+      <Filter>Source Files\Image Processing\Math\Magnitude</Filter>
+    </ClCompile>
+    <ClCompile Include="Sign.cpp">
+      <Filter>Source Files\Image Processing\Math\Sign</Filter>
+    </ClCompile>
+    <ClCompile Include="Subtract.cpp">
+      <Filter>Source Files\Image Processing\Math\Subtract</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistics2D.cpp">
+      <Filter>Source Files\Image Processing\Math\Statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="Mean.cpp">
+      <Filter>Source Files\Image Processing\Math\Statistics\Mean</Filter>
+    </ClCompile>
+    <ClCompile Include="StdDev.cpp">
+      <Filter>Source Files\Image Processing\Math\Statistics\StdDev</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterations.cpp">
+      <Filter>Source Files\Image Processing\Math\Iterations</Filter>
+    </ClCompile>
+    <ClCompile Include="Difference.cpp">
+      <Filter>Source Files\Image Processing\Math\Difference</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxMin.cpp">
+      <Filter>Source Files\Image Processing\Math\MaxMin</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowData.cpp">
+      <Filter>Source Files\Image Processing\Math\Window Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Scale.cpp">
+      <Filter>Source Files\Image Processing\Math\Scale</Filter>
+    </ClCompile>
+    <ClCompile Include="Sum.cpp">
+      <Filter>Source Files\Image Processing\Math\Sum</Filter>
+    </ClCompile>
+    <ClCompile Include="Boolean.cpp">
+      <Filter>Source Files\Image Processing\Math\Boolean</Filter>
+    </ClCompile>
+    <ClCompile Include="Invert.cpp">
+      <Filter>Source Files\Image Processing\Math\Invert</Filter>
+    </ClCompile>
+    <ClCompile Include="Power.cpp">
+      <Filter>Source Files\Image Processing\Math\Power</Filter>
+    </ClCompile>
+    <ClCompile Include="Addition.cpp">
+      <Filter>Source Files\Image Processing\Math\Addition</Filter>
+    </ClCompile>
+    <ClCompile Include="Limit.cpp">
+      <Filter>Source Files\Image Processing\Math\Limit</Filter>
+    </ClCompile>
+    <ClCompile Include="Average.cpp">
+      <Filter>Source Files\Image Processing\Math\Average</Filter>
+    </ClCompile>
+    <ClCompile Include="Norm.cpp">
+      <Filter>Source Files\Image Processing\Math\Norm</Filter>
+    </ClCompile>
+    <ClCompile Include="Contrast.cpp">
+      <Filter>Source Files\Image Processing\Contrast</Filter>
+    </ClCompile>
+    <ClCompile Include="FFTW.cpp">
+      <Filter>Source Files\Image Processing\FFTW</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmFxns.cpp">
+      <Filter>Source Files\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionCorrespondence.cpp">
+      <Filter>Source Files\Algorithms\Motion Correspondance</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmThread.cpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureThreadFxns.cpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateThreadedWindow.cpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive.cpp">
+      <Filter>Source Files\File Management\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePath.cpp">
+      <Filter>Source Files\File Management\FilePath</Filter>
+    </ClCompile>
+    <ClCompile Include="GetFolderPath.cpp">
+      <Filter>Source Files\File Management\FilePath</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenFilePath.cpp">
+      <Filter>Source Files\File Management\FilePath</Filter>
+    </ClCompile>
+    <ClCompile Include="Holography.cpp">
+      <Filter>Source Files\Holography</Filter>
+    </ClCompile>
+    <ClCompile Include="ReBarKNIFE.cpp">
+      <Filter>Resource Files\ReBar Reference</Filter>
+    </ClCompile>
+    <ClCompile Include="Reference.cpp">
+      <Filter>Resource Files\ReBar Reference</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Match.txt">
+      <Filter>Source Files\Image Processing\Math</Filter>
+    </None>
+    <None Include="bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Icons\woocons-1\woocons1\Button Play.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ico00004.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon3.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon4.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RACE.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="html1.htm" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RACE.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="BitFlow.h">
+      <Filter>Source Files\Devices\Camera\BitFlow</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="PhotonFocus.h">
+      <Filter>Source Files\Devices\Camera\BitFlow\PhotonFocus</Filter>
+    </CustomBuildStep>
+    <CustomBuildStep Include="TFPT.h">
+      <Filter>Source Files\Image Processing\Particle Track</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+</Project>

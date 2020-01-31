@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RACE[x64]|Win32">
+      <Configuration>RACE[x64]</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RACE[x64]|x64">
+      <Configuration>RACE[x64]</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E0A4079E-EE8C-436D-BEA7-5A995BB2DC40}</ProjectGuid>
+    <RootNamespace>RACE</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\Users\laser\Documents\Visual Studio 2008\Projects\RACE [7.8.14]\CUDAFunDll;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libtiff.lib;comctl32.lib;User32.lib;PxLApi40.lib;CUDAFunDll.lib;Gdiplus.lib;A3200C.lib;Vfw32.lib;FlyCapture2_C.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\laser\Documents\Visual Studio 2008\Projects\RACE [7.8.14]\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName)_target.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;User32.lib;PxLApi40.lib;CUDAFunDll.lib;Gdiplus.lib;A3200C64.lib;FlyCapture2_C.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\Users\laser\Documents\Visual Studio 2008\Projects\RACE [7.29.14]\CUDAFunDll;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libtiff.lib;FlyCapture2_C.lib;comctl32.lib;User32.lib;PxLAPI40.lib;CUDAFunDll.lib;Gdiplus.lib;A3200C.lib;Vfw32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\laser\Documents\Visual Studio 2008\Projects\RACE [7.29.14]\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>comctl32.lib;User32.lib;PxLAPI40.lib;CUDAFunDll.lib;Gdiplus.lib;A3200C64.lib;FlyCapture2_C.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|Win32'">
+    <Link>
+      <AdditionalDependencies>libtiff.h;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <Link>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CUDAFunDll\CUDAFunDll.vcxproj">
+      <Project>{323df698-a648-4f31-a1c3-6b8a03d7dbc6}</Project>
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="RACE.vcxproj">
+      <Project>{e0a4079e-ee8c-436d-bea7-5a995bb2dc40}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="DisplaySurface.h" />
+    <ClInclude Include="RACE.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Draw.h" />
+    <ClInclude Include="RegisterWnd.h" />
+    <ClInclude Include="ToolsWin32.h" />
+    <ClInclude Include="MDI.h" />
+    <ClInclude Include="MDIProc.h" />
+    <ClInclude Include="Manifest.h" />
+    <ClInclude Include="TextEditor.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="ToolBar.h" />
+    <ClInclude Include="CaptureToolBar.h" />
+    <ClInclude Include="DataPreview.h" />
+    <ClInclude Include="DataView.h" />
+    <ClInclude Include="DataManager.h" />
+    <ClInclude Include="ThrowError.h" />
+    <ClInclude Include="Subclass.h" />
+    <ClInclude Include="TextWindow.h" />
+    <ClInclude Include="CommandPrompt.h" />
+    <ClInclude Include="Boot.h" />
+    <ClInclude Include="ProgressView.h" />
+    <ClInclude Include="HistogramView.h" />
+    <ClInclude Include="DataBar.h" />
+    <ClInclude Include="DataTab.h" />
+    <ClInclude Include="AlgorithmTree.h" />
+    <ClInclude Include="TreeViewFxns.h" />
+    <ClInclude Include="TreeViewSubclass.h" />
+    <ClInclude Include="ReBarRACE.h" />
+    <ClInclude Include="PropertyManager.h" />
+    <ClInclude Include="StageProperties.h" />
+    <ClInclude Include="CameraProperties.h" />
+    <ClInclude Include="AlgorithmWizard.h" />
+    <ClInclude Include="ExperimentOptions.h" />
+    <ClInclude Include="AutoFocusDlg.h" />
+    <ClInclude Include="MosaicDlg.h" />
+    <ClInclude Include="ZStackDlg.h" />
+    <ClInclude Include="MultiChannelDlg.h" />
+    <ClInclude Include="ZeissObjectiveDlg.h" />
+    <ClInclude Include="Axiovert200Dlg.h" />
+    <ClInclude Include="ReefWatchdogDlg.h" />
+    <ClInclude Include="ReefWatchdogDevice.h" />
+    <ClInclude Include="ReefWatchdogLighting.h" />
+    <ClInclude Include="ReefWatchdogDosing.h" />
+    <ClInclude Include="ParticleTrackerDlg.h" />
+    <ClInclude Include="LaserMicroscope.h" />
+    <ClInclude Include="Microscope.h" />
+    <ClInclude Include="StageProc.h" />
+    <ClInclude Include="SystemProc.h" />
+    <ClInclude Include="DeviceProc.h" />
+    <ClInclude Include="DisplayProc.h" />
+    <ClInclude Include="TrackerProc.h" />
+    <ClInclude Include="AutoFocusProc.h" />
+    <ClInclude Include="TimeLapse.h" />
+    <ClInclude Include="ListView.h" />
+    <ClInclude Include="WndLink.h" />
+    <ClInclude Include="DataFilter.h" />
+    <ClInclude Include="ParticleTracker.h" />
+    <ClInclude Include="DataPlot.h" />
+    <ClInclude Include="DataView3D.h" />
+    <ClInclude Include="DataViewDep.h" />
+    <ClInclude Include="ReadTIFF.h" />
+    <ClInclude Include="PDM.h" />
+    <ClInclude Include="RAW.h" />
+    <ClInclude Include="BMP.h" />
+    <ClInclude Include="TTRobot.h" />
+    <ClInclude Include="XBox.h" />
+    <ClInclude Include="XBoxLinker.h" />
+    <ClInclude Include="ZeissMicroscope.h" />
+    <CustomBuildStep Include="BitFlow.h" />
+    <CustomBuildStep Include="PhotonFocus.h" />
+    <ClInclude Include="PixeLINK.h" />
+    <ClInclude Include="ZeissCam.h" />
+    <ClInclude Include="EmulateCamera.h" />
+    <ClInclude Include="Webcam.h" />
+    <ClInclude Include="Chameleon CMLN-13S2M.h" />
+    <ClInclude Include="ReefWatchdog.h" />
+    <ClInclude Include="EnumerateDevice.h" />
+    <ClInclude Include="UNO32.h" />
+    <ClInclude Include="SC10Shutter.h" />
+    <ClInclude Include="A3200Stage.h" />
+    <ClInclude Include="MotorWatchdog.h" />
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="DataTypes.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Ellipse.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="String.h" />
+    <ClInclude Include="StringFxns.h" />
+    <ClInclude Include="Polygon.h" />
+    <ClInclude Include="Trajectory.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="SchmidtEdge.h" />
+    <ClInclude Include="ParticleTrack.h" />
+    <CustomBuildStep Include="TFPT.h" />
+    <ClInclude Include="ThreadParticleTrack.h" />
+    <ClInclude Include="ImageSubtract.h" />
+    <ClInclude Include="DerivativeOperator.h" />
+    <ClInclude Include="LogOperator.h" />
+    <ClInclude Include="Range.h" />
+    <ClInclude Include="Region.h" />
+    <ClInclude Include="Contour.h" />
+    <ClInclude Include="TheoPavlidis.h" />
+    <ClInclude Include="PavlidisContour.h" />
+    <ClInclude Include="MarchingSquares.h" />
+    <ClInclude Include="Threshold.h" />
+    <ClInclude Include="Suppression.h" />
+    <ClInclude Include="LoG.h" />
+    <ClInclude Include="Zoom.h" />
+    <ClInclude Include="ImageConversion.h" />
+    <ClInclude Include="IntegralImage.h" />
+    <ClInclude Include="Histogram.h" />
+    <ClInclude Include="Stretch.h" />
+    <ClInclude Include="GaussianBlurr.h" />
+    <ClInclude Include="MedianFilter.h" />
+    <ClInclude Include="Chamfer.h" />
+    <ClInclude Include="ZStack.h" />
+    <ClInclude Include="ImageScale.h" />
+    <ClInclude Include="Mosaic.h" />
+    <ClInclude Include="MorphOperators.h" />
+    <ClInclude Include="Mask.h" />
+    <ClInclude Include="AlphaBlend.h" />
+    <ClInclude Include="FloodFill.h" />
+    <ClInclude Include="FloodFillEx.h" />
+    <ClInclude Include="Binarize.h" />
+    <ClInclude Include="ImageMath.h" />
+    <ClInclude Include="Magnitude.h" />
+    <ClInclude Include="Sign.h" />
+    <ClInclude Include="Subtract.h" />
+    <ClInclude Include="Statistics.h" />
+    <ClInclude Include="Statistics2D.h" />
+    <ClInclude Include="Iterations.h" />
+    <ClInclude Include="Difference.h" />
+    <ClInclude Include="MaxMin.h" />
+    <ClInclude Include="WindowData.h" />
+    <ClInclude Include="Scale.h" />
+    <ClInclude Include="Sum.h" />
+    <ClInclude Include="Boolean.h" />
+    <ClInclude Include="Invert.h" />
+    <ClInclude Include="Power.h" />
+    <ClInclude Include="Addition.h" />
+    <ClInclude Include="Limit.h" />
+    <ClInclude Include="Average.h" />
+    <ClInclude Include="Norm.h" />
+    <ClInclude Include="Contrast.h" />
+    <ClInclude Include="FFTW.h" />
+    <ClInclude Include="AlgorithmFxns.h" />
+    <ClInclude Include="MotionCorrespondence.h" />
+    <ClInclude Include="AlgorithmThread.h" />
+    <ClInclude Include="CaptureThreads.h" />
+    <ClInclude Include="CreateThreadedWindow.h" />
+    <ClInclude Include="Archive.h" />
+    <ClInclude Include="FilePath.h" />
+    <ClInclude Include="GetFolderPath.h" />
+    <ClInclude Include="OpenFilePath.h" />
+    <ClInclude Include="Holography.h" />
+    <ClInclude Include="RACEGDI.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DisplaySurface.cpp" />
+    <ClCompile Include="RACE.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Draw.cpp" />
+    <ClCompile Include="RegisterWnd.cpp" />
+    <ClCompile Include="ToolsWIN32.cpp" />
+    <ClCompile Include="ChildMDIProcTemplate.cpp" />
+    <ClCompile Include="MDI.cpp" />
+    <ClCompile Include="MDIProc.cpp" />
+    <ClCompile Include="Manifest.cpp" />
+    <ClCompile Include="TextEditor.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="ToolBar.cpp" />
+    <ClCompile Include="CaptureToolBar.cpp" />
+    <ClCompile Include="DataPreview.cpp" />
+    <ClCompile Include="DataView.cpp" />
+    <ClCompile Include="DataViewProc.cpp" />
+    <ClCompile Include="DataManager.cpp" />
+    <ClCompile Include="DataManagerProc.cpp" />
+    <ClCompile Include="ThrowError.cpp" />
+    <ClCompile Include="Subclass.cpp" />
+    <ClCompile Include="TextWindow.cpp" />
+    <ClCompile Include="ComandPromptProc.cpp" />
+    <ClCompile Include="Boot.cpp" />
+    <ClCompile Include="ProgressViewProc.cpp" />
+    <ClCompile Include="HistogramViewProc.cpp" />
+    <ClCompile Include="DataBarProc.cpp" />
+    <ClCompile Include="DataTab.cpp" />
+    <ClCompile Include="AlgorithmTree.cpp" />
+    <ClCompile Include="TreeViewFxns.cpp" />
+    <ClCompile Include="TreeViewSubclass.cpp" />
+    <ClCompile Include="RebarRACE.cpp" />
+    <ClCompile Include="PropertyManager.cpp" />
+    <ClCompile Include="StagePropertiesProc.cpp" />
+    <ClCompile Include="DeviceManager.cpp" />
+    <ClCompile Include="CameraProperties.cpp" />
+    <ClCompile Include="AlgorithmWizard.cpp" />
+    <ClCompile Include="ExperimentOptionsDlg.cpp" />
+    <ClCompile Include="AutoFocusDlg.cpp" />
+    <ClCompile Include="MosaicDlg.cpp" />
+    <ClCompile Include="ZStackDlg.cpp" />
+    <ClCompile Include="MultiChannelDlg.cpp" />
+    <ClCompile Include="ZeissObjectiveDlg.cpp" />
+    <ClCompile Include="Axiovert200Dlg.cpp" />
+    <ClCompile Include="ReefWatchdogDlg.cpp" />
+    <ClCompile Include="ReefWatchdogDeviceDlg.cpp" />
+    <ClCompile Include="ReefWatchdogLightingDlg.cpp" />
+    <ClCompile Include="ReefWatchdogDosingDlg.cpp" />
+    <ClCompile Include="ParticleTrackerDlgProc.cpp" />
+    <ClCompile Include="LaserMicroscopeProc.cpp" />
+    <ClCompile Include="LaserMicroscopeThread.cpp" />
+    <ClCompile Include="StageProc.cpp" />
+    <ClCompile Include="LaserMicroscope.cpp" />
+    <ClCompile Include="SystemProc.cpp" />
+    <ClCompile Include="DeviceProc.cpp" />
+    <ClCompile Include="DisplayProc.cpp" />
+    <ClCompile Include="TrackerProc.cpp" />
+    <ClCompile Include="AutoFocus.cpp" />
+    <ClCompile Include="AutoFocusProc.cpp" />
+    <ClCompile Include="TimeLapseProc.cpp" />
+    <ClCompile Include="ListViewProc.cpp" />
+    <ClCompile Include="WndLink.cpp" />
+    <ClCompile Include="DataFilter.cpp" />
+    <ClCompile Include="DataFilterProc.cpp" />
+    <ClCompile Include="ParticleTracker.cpp" />
+    <ClCompile Include="ParticleTrackerProc.cpp" />
+    <ClCompile Include="DataPlotProc.cpp" />
+    <ClCompile Include="DataView3D.cpp" />
+    <ClCompile Include="ReadTIFF.cpp" />
+    <ClCompile Include="PDM.cpp" />
+    <ClCompile Include="PDMBuffer.cpp" />
+    <ClCompile Include="RAW.cpp" />
+    <ClCompile Include="BMP.cpp" />
+    <ClCompile Include="TTRobot.cpp" />
+    <ClCompile Include="XBox.cpp" />
+    <ClCompile Include="XBoxLinker.cpp" />
+    <ClCompile Include="XBoxLinkerProc.cpp" />
+    <ClCompile Include="ZeissExperimentProc.cpp" />
+    <ClCompile Include="ZeissMicroscope.cpp" />
+    <ClCompile Include="ZeissMicroscopeManagerProc.cpp" />
+    <ClCompile Include="ZeissMicroscopeProc.cpp" />
+    <ClCompile Include="BitFlow.cpp" />
+    <ClCompile Include="PhotonFocusThread.cpp" />
+    <ClCompile Include="PixeLINKThread.cpp" />
+    <ClCompile Include="ZeissCam.cpp" />
+    <ClCompile Include="ZeissCamCapture.cpp" />
+    <ClCompile Include="EmulateCamera.cpp" />
+    <ClCompile Include="Webcam.cpp" />
+    <ClCompile Include="Chameleon CMLN-13S2M.cpp" />
+    <ClCompile Include="ChameleonThread.cpp" />
+    <ClCompile Include="ReefWatchdogProc.cpp" />
+    <ClCompile Include="EnumerateDevice.cpp" />
+    <ClCompile Include="A3200Thread.cpp" />
+    <ClCompile Include="UNO32Proc.cpp" />
+    <ClCompile Include="SC10LinkerProc.cpp" />
+    <ClCompile Include="A3200Stage.cpp" />
+    <ClCompile Include="MotorWatchdogProc.cpp" />
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="DrawPoint.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Ellipse.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="String.cpp" />
+    <ClCompile Include="StringFxns.cpp" />
+    <ClCompile Include="Polygon.cpp" />
+    <ClCompile Include="Trajectory.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="SchmidtEdge.cpp" />
+    <ClCompile Include="ParticleTrack.cpp" />
+    <ClCompile Include="TFPT.cpp" />
+    <ClCompile Include="ThreadParticleTrack.cpp" />
+    <ClCompile Include="ImageSubtract.cpp" />
+    <ClCompile Include="DerivativeOperator.cpp" />
+    <ClCompile Include="LogOperator.cpp" />
+    <ClCompile Include="Range.cpp" />
+    <ClCompile Include="Region.cpp" />
+    <ClCompile Include="Contour.cpp" />
+    <ClCompile Include="TheoPavlidis.cpp" />
+    <ClCompile Include="PavlidisContour.cpp" />
+    <ClCompile Include="MarchingSquares.cpp" />
+    <ClCompile Include="Threshold.cpp" />
+    <ClCompile Include="Suppression.cpp" />
+    <ClCompile Include="LoG.cpp" />
+    <ClCompile Include="Zoom.cpp" />
+    <ClCompile Include="ImageConversion.cpp" />
+    <ClCompile Include="IntegralImage.cpp" />
+    <ClCompile Include="Histogram.cpp" />
+    <ClCompile Include="Stretch.cpp" />
+    <ClCompile Include="GaussianBlurr.cpp" />
+    <ClCompile Include="MedianFilter.cpp" />
+    <ClCompile Include="Chamfer.cpp" />
+    <ClCompile Include="ZStack.cpp" />
+    <ClCompile Include="ImageScale.cpp" />
+    <ClCompile Include="Mosaic.cpp" />
+    <ClCompile Include="MorphOperators.cpp" />
+    <ClCompile Include="Mask.cpp" />
+    <ClCompile Include="AlphaBlend.cpp" />
+    <ClCompile Include="FloodFill.cpp" />
+    <ClCompile Include="FloodFillEx.cpp" />
+    <ClCompile Include="Binarize.cpp" />
+    <ClCompile Include="ImageMath.cpp" />
+    <ClCompile Include="Magnitude.cpp" />
+    <ClCompile Include="Sign.cpp" />
+    <ClCompile Include="Subtract.cpp" />
+    <ClCompile Include="Statistics2D.cpp" />
+    <ClCompile Include="Mean.cpp" />
+    <ClCompile Include="StdDev.cpp" />
+    <ClCompile Include="Iterations.cpp" />
+    <ClCompile Include="Difference.cpp" />
+    <ClCompile Include="MaxMin.cpp" />
+    <ClCompile Include="WindowData.cpp" />
+    <ClCompile Include="Scale.cpp" />
+    <ClCompile Include="Sum.cpp" />
+    <ClCompile Include="Boolean.cpp" />
+    <ClCompile Include="Invert.cpp" />
+    <ClCompile Include="Power.cpp" />
+    <ClCompile Include="Addition.cpp" />
+    <ClCompile Include="Limit.cpp" />
+    <ClCompile Include="Average.cpp" />
+    <ClCompile Include="Norm.cpp" />
+    <ClCompile Include="Contrast.cpp" />
+    <ClCompile Include="FFTW.cpp" />
+    <ClCompile Include="AlgorithmFxns.cpp" />
+    <ClCompile Include="MotionCorrespondence.cpp" />
+    <ClCompile Include="AlgorithmThread.cpp" />
+    <ClCompile Include="CaptureThreadFxns.cpp" />
+    <ClCompile Include="CreateThreadedWindow.cpp" />
+    <ClCompile Include="Archive.cpp" />
+    <ClCompile Include="FilePath.cpp" />
+    <ClCompile Include="GetFolderPath.cpp" />
+    <ClCompile Include="OpenFilePath.cpp" />
+    <ClCompile Include="Holography.cpp" />
+    <ClCompile Include="ReBarKNIFE.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Reference.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RACE[x64]|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Match.txt" />
+    <None Include="bitmap1.bmp" />
+    <None Include="bitmap2.bmp" />
+    <None Include="bitmap3.bmp" />
+    <None Include="..\Icons\woocons-1\woocons1\Button Play.png" />
+    <None Include="cursor1.cur" />
+    <None Include="ico00001.ico" />
+    <None Include="ico00002.ico" />
+    <None Include="ico00003.ico" />
+    <None Include="ico00004.ico" />
+    <None Include="icon1.ico" />
+    <None Include="icon2.ico" />
+    <None Include="icon3.ico" />
+    <None Include="icon4.ico" />
+    <None Include="RACE.ico" />
+    <None Include="small.ico" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="html1.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RACE.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

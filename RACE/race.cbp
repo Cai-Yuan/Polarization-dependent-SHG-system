@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="race" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/race" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/race" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename=".bmp" />
+		<Unit filename="A3200C64.dll" />
+		<Unit filename="A3200Stage.cpp" />
+		<Unit filename="A3200Stage.h" />
+		<Unit filename="A3200Stage.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="A3200Thread.cpp" />
+		<Unit filename="A3200Thread.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Addition.cpp" />
+		<Unit filename="Addition.h" />
+		<Unit filename="Addition.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="AlgorithmFxns.cpp" />
+		<Unit filename="AlgorithmFxns.h" />
+		<Unit filename="AlgorithmFxns.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="AlgorithmThread.cpp" />
+		<Unit filename="AlgorithmThread.h" />
+		<Unit filename="AlgorithmThread.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="AlgorithmTree.cpp" />
+		<Unit filename="AlgorithmTree.h" />
+		<Unit filename="AlgorithmTree.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="AlgorithmWizard.cpp" />
+		<Unit filename="AlgorithmWizard.h" />
+		<Unit filename="AlgorithmWizard.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="AlphaBlend.cpp" />
+		<Unit filename="AlphaBlend.h" />
+		<Unit filename="AlphaBlend.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Archive.cpp" />
+		<Unit filename="Archive.h" />
+		<Unit filename="Archive.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="AutoFocus.cpp" />
+		<Unit filename="AutoFocus.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="AutoFocusDlg.cpp" />
+		<Unit filename="AutoFocusDlg.h" />
+		<Unit filename="AutoFocusDlg.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="AutoFocusProc.cpp" />
+		<Unit filename="AutoFocusProc.h" />
+		<Unit filename="AutoFocusProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Average.cpp" />
+		<Unit filename="Average.h" />
+		<Unit filename="Average.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Axiovert200Dlg.cpp" />
+		<Unit filename="Axiovert200Dlg.h" />
+		<Unit filename="Axiovert200Dlg.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="BMP.cpp" />
+		<Unit filename="BMP.h" />
+		<Unit filename="BMP.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Binarize.cpp" />
+		<Unit filename="Binarize.h" />
+		<Unit filename="Binarize.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="BitFlow.cpp" />
+		<Unit filename="BitFlow.h" />
+		<Unit filename="BitFlow.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Boolean.cpp" />
+		<Unit filename="Boolean.h" />
+		<Unit filename="Boolean.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Boot.cpp" />
+		<Unit filename="Boot.cpp~RF72d7b9e7.TMP" />
+		<Unit filename="Boot.h" />
+		<Unit filename="Boot.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="CameraProperties.cpp" />
+		<Unit filename="CameraProperties.h" />
+		<Unit filename="CameraProperties.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="CameraProperties2.cpp" />
+		<Unit filename="CameraProperties2.h" />
+		<Unit filename="CameraPropertiesOld.cpp" />
+		<Unit filename="CameraPropertiesOld.h" />
+		<Unit filename="CaptureThreadFxns.cpp" />
+		<Unit filename="CaptureThreadFxns.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="CaptureThreads.h" />
+		<Unit filename="CaptureToolBar.cpp" />
+		<Unit filename="CaptureToolBar.h" />
+		<Unit filename="CaptureToolBar.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="CellStretcher.h" />
+		<Unit filename="CellStretcherProc.cpp" />
+		<Unit filename="CellStretcherProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Chameleon CMLN-13S2M.cpp" />
+		<Unit filename="Chameleon CMLN-13S2M.h" />
+		<Unit filename="ChameleonThread.cpp" />
+		<Unit filename="Chamfer.cpp" />
+		<Unit filename="Chamfer.h" />
+		<Unit filename="Chamfer.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ChildMDIProcTemplate.cpp" />
+		<Unit filename="ChildMDIProcTemplate.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Circle.cpp" />
+		<Unit filename="Circle.h" />
+		<Unit filename="Circle.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="CircularBuffer.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ClassDiagram1.cd" />
+		<Unit filename="ComandPromptProc.cpp" />
+		<Unit filename="ComandPromptProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="CommandPrompt.h" />
+		<Unit filename="Constants.h" />
+		<Unit filename="Contour.cpp" />
+		<Unit filename="Contour.h" />
+		<Unit filename="Contour.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Contrast.cpp" />
+		<Unit filename="Contrast.h" />
+		<Unit filename="Contrast.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="CreateThreadedWindow.cpp" />
+		<Unit filename="CreateThreadedWindow.h" />
+		<Unit filename="CreateThreadedWindow.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DataBar.h" />
+		<Unit filename="DataBarProc.cpp" />
+		<Unit filename="DataBarProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DataFilter.cpp" />
+		<Unit filename="DataFilter.h" />
+		<Unit filename="DataFilter.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DataFilterProc.cpp" />
+		<Unit filename="DataFilterProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DataManager.cpp" />
+		<Unit filename="DataManager.h" />
+		<Unit filename="DataManager.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DataManagerProc.cpp" />
+		<Unit filename="DataManagerProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DataPlot.h" />
+		<Unit filename="DataPlotProc.cpp" />
+		<Unit filename="DataPlotProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DataPreview.cpp" />
+		<Unit filename="DataPreview.h" />
+		<Unit filename="DataPreview.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DataTab.cpp" />
+		<Unit filename="DataTab.h" />
+		<Unit filename="DataTab.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DataTypes.h" />
+		<Unit filename="DataView.cpp" />
+		<Unit filename="DataView.h" />
+		<Unit filename="DataView.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DataView3D.cpp" />
+		<Unit filename="DataView3D.h" />
+		<Unit filename="DataView3D.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DataViewDep.h" />
+		<Unit filename="DataViewProc.cpp" />
+		<Unit filename="DataViewProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DataViewProc[old].cpp" />
+		<Unit filename="DataView[old].h" />
+		<Unit filename="DerivativeOperator.cpp" />
+		<Unit filename="DerivativeOperator.h" />
+		<Unit filename="DerivativeOperator.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DeviceManager.cpp" />
+		<Unit filename="DeviceManager.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DeviceProc.cpp" />
+		<Unit filename="DeviceProc.h" />
+		<Unit filename="DeviceProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Difference.cpp" />
+		<Unit filename="Difference.h" />
+		<Unit filename="Difference.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DisplayProc.cpp" />
+		<Unit filename="DisplayProc.h" />
+		<Unit filename="DisplayProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DisplaySurface.cpp" />
+		<Unit filename="DisplaySurface.h" />
+		<Unit filename="DisplaySurface.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Draw.cpp" />
+		<Unit filename="Draw.h" />
+		<Unit filename="Draw.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="DrawPoint.cpp" />
+		<Unit filename="DrawPoint.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Ellipse.cpp" />
+		<Unit filename="Ellipse.h" />
+		<Unit filename="Ellipse.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="EmulateCamera.cpp" />
+		<Unit filename="EmulateCamera.h" />
+		<Unit filename="EmulateCamera.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="EnumerateDevice.cpp" />
+		<Unit filename="EnumerateDevice.h" />
+		<Unit filename="EnumerateDevice.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ExperimentOptions.h" />
+		<Unit filename="ExperimentOptionsDlg.cpp" />
+		<Unit filename="ExperimentOptionsDlg.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="FFTW.cpp" />
+		<Unit filename="FFTW.h" />
+		<Unit filename="FFTW.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="FilePath.cpp" />
+		<Unit filename="FilePath.h" />
+		<Unit filename="FilePath.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="FloodFill.cpp" />
+		<Unit filename="FloodFill.h" />
+		<Unit filename="FloodFill.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="FloodFillEx.cpp" />
+		<Unit filename="FloodFillEx.h" />
+		<Unit filename="FloodFillEx.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="GaussianBlurr.cpp" />
+		<Unit filename="GaussianBlurr.h" />
+		<Unit filename="GaussianBlurr.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="GetFolderPath.cpp" />
+		<Unit filename="GetFolderPath.h" />
+		<Unit filename="GetFolderPath.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Histogram.cpp" />
+		<Unit filename="Histogram.h" />
+		<Unit filename="Histogram.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="HistogramView.h" />
+		<Unit filename="HistogramViewProc.cpp" />
+		<Unit filename="HistogramViewProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Holography.cpp" />
+		<Unit filename="Holography.h" />
+		<Unit filename="Holography.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Image.cpp" />
+		<Unit filename="Image.h" />
+		<Unit filename="Image.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ImageConversion.cpp" />
+		<Unit filename="ImageConversion.h" />
+		<Unit filename="ImageConversion.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ImageMath.cpp" />
+		<Unit filename="ImageMath.h" />
+		<Unit filename="ImageMath.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ImageScale.cpp" />
+		<Unit filename="ImageScale.h" />
+		<Unit filename="ImageScale.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ImageSubtract.cpp" />
+		<Unit filename="ImageSubtract.h" />
+		<Unit filename="ImageSubtract.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Install.iit" />
+		<Unit filename="IntegralImage.cpp" />
+		<Unit filename="IntegralImage.h" />
+		<Unit filename="IntegralImage.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Invert.cpp" />
+		<Unit filename="Invert.h" />
+		<Unit filename="Invert.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Iterations.cpp" />
+		<Unit filename="Iterations.h" />
+		<Unit filename="Iterations.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="LaplacianOfGaussian.h" />
+		<Unit filename="LaserMicroscope.cpp" />
+		<Unit filename="LaserMicroscope.h" />
+		<Unit filename="LaserMicroscope.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="LaserMicroscopeProc.cpp" />
+		<Unit filename="LaserMicroscopeProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="LaserMicroscopeThread.cpp" />
+		<Unit filename="LaserMicroscopeThread.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Limit.cpp" />
+		<Unit filename="Limit.h" />
+		<Unit filename="Limit.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Line.cpp" />
+		<Unit filename="Line.h" />
+		<Unit filename="Line.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ListView.h" />
+		<Unit filename="ListViewProc.cpp" />
+		<Unit filename="ListViewProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="LoG.cpp" />
+		<Unit filename="LoG.h" />
+		<Unit filename="LoG.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="LogOperator.cpp" />
+		<Unit filename="LogOperator.h" />
+		<Unit filename="LogOperator.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="MDI.cpp" />
+		<Unit filename="MDI.h" />
+		<Unit filename="MDI.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="MDIProc.cpp" />
+		<Unit filename="MDIProc.h" />
+		<Unit filename="MDIProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Magnitude.cpp" />
+		<Unit filename="Magnitude.h" />
+		<Unit filename="Magnitude.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Manifest.cpp" />
+		<Unit filename="Manifest.h" />
+		<Unit filename="Manifest.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="MarchingSquares.cpp" />
+		<Unit filename="MarchingSquares.h" />
+		<Unit filename="MarchingSquares.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Mask.cpp" />
+		<Unit filename="Mask.h" />
+		<Unit filename="Mask.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Match.txt" />
+		<Unit filename="MathRACE.h" />
+		<Unit filename="MaxMin.cpp" />
+		<Unit filename="MaxMin.h" />
+		<Unit filename="MaxMin.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Mean.cpp" />
+		<Unit filename="Mean.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="MedianFilter.cpp" />
+		<Unit filename="MedianFilter.h" />
+		<Unit filename="Menu.cpp" />
+		<Unit filename="Menu.h" />
+		<Unit filename="Menu.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Microscope.h" />
+		<Unit filename="MorphOperators.cpp" />
+		<Unit filename="MorphOperators.h" />
+		<Unit filename="MorphOperators.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Mosaic.cpp" />
+		<Unit filename="Mosaic.h" />
+		<Unit filename="Mosaic.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="MosaicDlg.cpp" />
+		<Unit filename="MosaicDlg.h" />
+		<Unit filename="MosaicDlg.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="MotionCorrespondence.cpp" />
+		<Unit filename="MotionCorrespondence.cpp~RF750ac4b.TMP" />
+		<Unit filename="MotionCorrespondence.h" />
+		<Unit filename="MotionCorrespondence.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="MotorWatchdog.h" />
+		<Unit filename="MotorWatchdogProc.cpp" />
+		<Unit filename="MultiChannelDlg.cpp" />
+		<Unit filename="MultiChannelDlg.h" />
+		<Unit filename="MultiChannelDlg.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Norm.cpp" />
+		<Unit filename="Norm.h" />
+		<Unit filename="Norm.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Object.cpp" />
+		<Unit filename="Object.h" />
+		<Unit filename="Object.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="OpenFilePath.cpp" />
+		<Unit filename="OpenFilePath.h" />
+		<Unit filename="OpenFilePath.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="PDM.cpp" />
+		<Unit filename="PDM.h" />
+		<Unit filename="PDM.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="PDMBuffer.cpp" />
+		<Unit filename="PDMBuffer.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Particle.cpp" />
+		<Unit filename="Particle.h" />
+		<Unit filename="Particle.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ParticleTrack.cpp" />
+		<Unit filename="ParticleTrack.h" />
+		<Unit filename="ParticleTrack.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ParticleTracker.cpp" />
+		<Unit filename="ParticleTracker.h" />
+		<Unit filename="ParticleTracker.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ParticleTrackerDlg.h" />
+		<Unit filename="ParticleTrackerDlg.h~RF4885fa4.TMP" />
+		<Unit filename="ParticleTrackerDlgProc.cpp" />
+		<Unit filename="ParticleTrackerDlgProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ParticleTrackerProc.cpp" />
+		<Unit filename="ParticleTrackerProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="PavlidisContour.cpp" />
+		<Unit filename="PavlidisContour.h" />
+		<Unit filename="PavlidisContour.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="PhotonFocus.h" />
+		<Unit filename="PhotonFocusThread.cpp" />
+		<Unit filename="PhotonFocusThread.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="PixeLINK.h" />
+		<Unit filename="PixeLINKThread.cpp" />
+		<Unit filename="PixeLINKThread.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Point.cpp" />
+		<Unit filename="Point.h" />
+		<Unit filename="Point.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Polygon.cpp" />
+		<Unit filename="Polygon.h" />
+		<Unit filename="Polygon.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Power.cpp" />
+		<Unit filename="Power.h" />
+		<Unit filename="Power.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ProgressView.h" />
+		<Unit filename="ProgressViewProc.cpp" />
+		<Unit filename="ProgressViewProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="PropertyManager.cpp" />
+		<Unit filename="PropertyManager.h" />
+		<Unit filename="PropertyManager.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="RACE.APS" />
+		<Unit filename="RACE.cpp" />
+		<Unit filename="RACE.h" />
+		<Unit filename="RACE.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="RACE.ico" />
+		<Unit filename="RACE.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="RACE.vcproj" />
+		<Unit filename="RACE.vcproj.A212-ZEISS.204.user" />
+		<Unit filename="RACE.vcproj.A212-ZEISS.zma.user" />
+		<Unit filename="RACE.vcproj.BIOE-RHODA212.laser.user" />
+		<Unit filename="RACE.vcproj.Jared-LT.Jared.user" />
+		<Unit filename="RACE.vcproj.LSCHMID-L1.coesadmin.user" />
+		<Unit filename="RACE.vcproj.db.a.user" />
+		<Unit filename="RACE.vcproj.lschmidtytech-P.lschmidtytech.user" />
+		<Unit filename="RACE.vcproj.zma-DT1.zma.user" />
+		<Unit filename="RACE.vcxproj" />
+		<Unit filename="RACE.vcxproj.filters" />
+		<Unit filename="RACE.vcxproj.user" />
+		<Unit filename="RACEGDI.h" />
+		<Unit filename="RAW.cpp" />
+		<Unit filename="RAW.h" />
+		<Unit filename="RAW.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Range.cpp" />
+		<Unit filename="Range.h" />
+		<Unit filename="Range.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ReBarKNIFE.cpp" />
+		<Unit filename="ReBarRACE.h" />
+		<Unit filename="ReadMe.txt" />
+		<Unit filename="ReadTIFF.cpp" />
+		<Unit filename="ReadTIFF.h" />
+		<Unit filename="ReadTIFF.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="RebarRACE.cpp" />
+		<Unit filename="RebarRACE.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ReefWatchdog.cpp" />
+		<Unit filename="ReefWatchdog.h" />
+		<Unit filename="ReefWatchdogDevice.h" />
+		<Unit filename="ReefWatchdogDeviceDlg.cpp" />
+		<Unit filename="ReefWatchdogDeviceDlg.cpp~RFb6113c9.TMP" />
+		<Unit filename="ReefWatchdogDeviceDlg.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ReefWatchdogDlg.cpp" />
+		<Unit filename="ReefWatchdogDlg.h" />
+		<Unit filename="ReefWatchdogDlg.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ReefWatchdogDosing.h" />
+		<Unit filename="ReefWatchdogDosingDlg.cpp" />
+		<Unit filename="ReefWatchdogDosingDlg.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ReefWatchdogLighting.h" />
+		<Unit filename="ReefWatchdogLightingDlg.cpp" />
+		<Unit filename="ReefWatchdogLightingDlg.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ReefWatchdogProc.cpp" />
+		<Unit filename="ReefWatchdogProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Reference.cpp" />
+		<Unit filename="Region.cpp" />
+		<Unit filename="Region.h" />
+		<Unit filename="Region.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="RegisterWnd.cpp" />
+		<Unit filename="RegisterWnd.h" />
+		<Unit filename="RegisterWnd.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="SC10LinkerProc.cpp" />
+		<Unit filename="SC10LinkerProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="SC10Shutter.cpp" />
+		<Unit filename="SC10Shutter.h" />
+		<Unit filename="SC10Shutter.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Scale.cpp" />
+		<Unit filename="Scale.h" />
+		<Unit filename="Scale.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="SchmidtEdge.cpp" />
+		<Unit filename="SchmidtEdge.h" />
+		<Unit filename="SchmidtEdge.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Sign.cpp" />
+		<Unit filename="Sign.h" />
+		<Unit filename="Sign.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Stack.cpp" />
+		<Unit filename="Stack.h" />
+		<Unit filename="Stack.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="StageProc.cpp" />
+		<Unit filename="StageProc.h" />
+		<Unit filename="StageProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="StageProperties.h" />
+		<Unit filename="StagePropertiesProc.cpp" />
+		<Unit filename="StagePropertiesProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Statistics.h" />
+		<Unit filename="Statistics2D.cpp" />
+		<Unit filename="Statistics2D.h" />
+		<Unit filename="Statistics2D.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="StdDev.cpp" />
+		<Unit filename="StdDev.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Stretch.cpp" />
+		<Unit filename="Stretch.h" />
+		<Unit filename="Stretch.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="String.cpp" />
+		<Unit filename="String.h" />
+		<Unit filename="String.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="StringFxns.cpp" />
+		<Unit filename="StringFxns.h" />
+		<Unit filename="StringFxns.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Subclass.cpp" />
+		<Unit filename="Subclass.h" />
+		<Unit filename="Subclass.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Subtract.cpp" />
+		<Unit filename="Subtract.h" />
+		<Unit filename="Subtract.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Sum.cpp" />
+		<Unit filename="Sum.h" />
+		<Unit filename="Sum.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Suppression.cpp" />
+		<Unit filename="Suppression.h" />
+		<Unit filename="Suppression.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="SystemProc.cpp" />
+		<Unit filename="SystemProc.h" />
+		<Unit filename="SystemProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="TFPT.cpp" />
+		<Unit filename="TFPT.h" />
+		<Unit filename="TFPT.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="TTRobot.cpp" />
+		<Unit filename="TTRobot.h" />
+		<Unit filename="TTRobot.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Text.cpp" />
+		<Unit filename="Text.h" />
+		<Unit filename="Text.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="TextEditor.cpp" />
+		<Unit filename="TextEditor.h" />
+		<Unit filename="TextEditor.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="TextWindow.cpp" />
+		<Unit filename="TextWindow.h" />
+		<Unit filename="TextWindow.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="TheoPavlidis.cpp" />
+		<Unit filename="TheoPavlidis.h" />
+		<Unit filename="TheoPavlidis.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ThreadParticleTrack.cpp" />
+		<Unit filename="ThreadParticleTrack.h" />
+		<Unit filename="ThreadParticleTrack.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Threshold.cpp" />
+		<Unit filename="Threshold.h" />
+		<Unit filename="Threshold.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ThrowError.cpp" />
+		<Unit filename="ThrowError.h" />
+		<Unit filename="ThrowError.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="TimeLapse.h" />
+		<Unit filename="TimeLapseProc.cpp" />
+		<Unit filename="TimeLapseProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ToolBar.cpp" />
+		<Unit filename="ToolBar.h" />
+		<Unit filename="ToolBar.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ToolsWIN32.cpp" />
+		<Unit filename="ToolsWIN32.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ToolsWin32.h" />
+		<Unit filename="TrackerProc.cpp" />
+		<Unit filename="TrackerProc.h" />
+		<Unit filename="TrackerProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Trajectory.cpp" />
+		<Unit filename="Trajectory.h" />
+		<Unit filename="Trajectory.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="TreeViewFunctions.h" />
+		<Unit filename="TreeViewFxns.cpp" />
+		<Unit filename="TreeViewFxns.h" />
+		<Unit filename="TreeViewFxns.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="TreeViewSubclass.cpp" />
+		<Unit filename="TreeViewSubclass.h" />
+		<Unit filename="TreeViewSubclass.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="UNO32 - Original 9.29.14.h" />
+		<Unit filename="UNO32.h" />
+		<Unit filename="UNO32Proc - Original 9.29.14.cpp" />
+		<Unit filename="UNO32Proc.cpp" />
+		<Unit filename="UNO32Proc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Vector.cpp" />
+		<Unit filename="Vector.h" />
+		<Unit filename="Vector.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Webcam.cpp" />
+		<Unit filename="Webcam.h" />
+		<Unit filename="WindowData.cpp" />
+		<Unit filename="WindowData.h" />
+		<Unit filename="WindowData.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="WndLink.cpp" />
+		<Unit filename="WndLink.h" />
+		<Unit filename="WndLink.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="XBox.cpp" />
+		<Unit filename="XBox.h" />
+		<Unit filename="XBox.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="XBoxLinker.cpp" />
+		<Unit filename="XBoxLinker.cpp~RF1561efbb.TMP" />
+		<Unit filename="XBoxLinker.h" />
+		<Unit filename="XBoxLinker.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="XBoxLinkerProc.cpp" />
+		<Unit filename="XBoxLinkerProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ZStack.cpp" />
+		<Unit filename="ZStack.h" />
+		<Unit filename="ZStack.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ZStackDlg.cpp" />
+		<Unit filename="ZStackDlg.h" />
+		<Unit filename="ZStackDlg.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ZeissCam.cpp" />
+		<Unit filename="ZeissCam.h" />
+		<Unit filename="ZeissCam.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ZeissCamCapture.cpp" />
+		<Unit filename="ZeissCamCapture.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ZeissExperimentProc.cpp" />
+		<Unit filename="ZeissExperimentProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ZeissMicroscope.cpp" />
+		<Unit filename="ZeissMicroscope.h" />
+		<Unit filename="ZeissMicroscope.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ZeissMicroscopeManagerProc.cpp" />
+		<Unit filename="ZeissMicroscopeManagerProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ZeissMicroscopeProc.cpp" />
+		<Unit filename="ZeissMicroscopeProc.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ZeissObjectiveDlg.cpp" />
+		<Unit filename="ZeissObjectiveDlg.h" />
+		<Unit filename="ZeissObjectiveDlg.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="Zoom.cpp" />
+		<Unit filename="Zoom.h" />
+		<Unit filename="Zoom.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="bitmap1.bmp" />
+		<Unit filename="bitmap2.bmp" />
+		<Unit filename="bitmap3.bmp" />
+		<Unit filename="cursor1.cur" />
+		<Unit filename="glu32.dll" />
+		<Unit filename="glut.dll" />
+		<Unit filename="glut32.dll" />
+		<Unit filename="html1.htm" />
+		<Unit filename="ico00001.ico" />
+		<Unit filename="ico00002.ico" />
+		<Unit filename="ico00003.ico" />
+		<Unit filename="ico00004.ico" />
+		<Unit filename="icon1.ico" />
+		<Unit filename="icon2.ico" />
+		<Unit filename="icon3.ico" />
+		<Unit filename="icon4.ico" />
+		<Unit filename="mcamhs.dll" />
+		<Unit filename="mcammr.dll" />
+		<Unit filename="opengl32.dll" />
+		<Unit filename="race.cbp" />
+		<Unit filename="resource.h" />
+		<Unit filename="small.ico" />
+		<Unit filename="stdafx.cpp" />
+		<Unit filename="stdafx.h" />
+		<Unit filename="stdafx.i">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="targetver.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

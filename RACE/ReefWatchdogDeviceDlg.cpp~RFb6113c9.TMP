@@ -1,0 +1,159 @@
+#include "stdafx.h"
+
+#include "ReefWatchdogDevice.h"
+#include "EnumerateDevice.h"
+
+INT_PTR CALLBACK ReefWatchdogDeviceProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
+{
+	REEFWATCHDOGDEVICE *lpReefWatchdogDevice = (REEFWATCHDOGDEVICE *) GetWindowLongPtr(hwnd, GWLP_USERDATA);
+
+	CHAR str[MAX_STRING];
+
+	switch(msg)
+	{
+	case WM_INITDIALOG:
+
+		lpReefWatchdogDevice = (REEFWATCHDOGDEVICE *)calloc(1, sizeof(REEFWATCHDOGDEVICE));
+		memset(lpReefWatchdogDevice, 0x00, sizeof(REEFWATCHDOGDEVICE));
+		SetWindowLongPtr(hwnd, (-21)/*GWL_USERDATA*/, (LONG_PTR) lpReefWatchdogDevice);
+		lpReefWatchdogDevice = (REEFWATCHDOGDEVICE *) GetWindowLongPtr(hwnd, (-21)/*GWL_USERDATA*/);
+
+		if(lpReefWatchdogDevice == NULL){
+			ThrowMessage(hwnd, "WndReefWatchdogDevice: Error Getting Long Ptr");
+			ThrowMessage(hwnd, "WndReefWatchdogDevice: Exiting Initialization");
+			SendMessage(hwnd, WM_CLOSE, NULL, NULL);
+			return TRUE;
+		}
+
+		lpReefWatchdogDevice->hBtnConnect = GetDlgItem(hwnd, IDC_BTN_CONNECT);
+		lpReefWatchdogDevice->hBtnDownload = GetDlgItem(hwnd, IDC_BTN_DOWNLOAD);
+		lpReefWatchdogDevice->hBtnUpload = GetDlgItem(hwnd, IDC_BTN_UPLOAD);
+
+		lpReefWatchdogDevice->hEditStatus = GetDlgItem(hwnd, IDC_EDIT_STATUS);
+		lpReefWatchdogDevice->hEditTime = GetDlgItem(hwnd, IDC_EDIT_TIME);
+
+		lpReefWatchdogDevice->hDevice = ConnectToDevice(&lpReefWatchdogDevice->numCom, "?ID", "ReefWatchdog", 2500);
+
+		lpReefWatchdogDevice->hReefWatchdogProc = SendMessage(lpReefWatchdogDevice->hOwner, WM_GETHWND, HWND_REEFWATCHDOG, NULL);
+		WM_GETHANDLE
+
+		SendMessage(lpReefWatchdogDevice->hReefWatchdogProc, WM_SETHANDLE, HWND_DEVICE, (LPARAM) lpReefWatchdogDevice->hDevice);
+		//lpReefWatchdogDevice->hDeviceLighting = ConnectToDevice(&lpReefWatchdogDevice->numCom, "?ID", "Lighting", 2500);
+		//lpReefWatchdogDevice->hDeviceDosing = ConnectToDevice(&lpReefWatchdogDevice->numCom, "?ID", "Dosing", 2500);
+
+		if(lpReefWatchdogDevice->hDevice){
+			memset(str, NULL, MAX_STRING*sizeof(CHAR));
+			sprintf(str, "Connected (COM%d)", lpReefWatchdogDevice->numCom);
+			Edit_SetText(lpReefWatchdogDevice->hEditStatus, str);
+			Button_SetText(lpReefWatchdogDevice->hBtnConnect, "Disconnect");
+		}
+		else{
+			Edit_SetText(lpReefWatchdogDevice->hEditStatus, "Not Found");
+		}
+
+		break;
+	case WM_COMMAND:
+
+		//Control-Defined Notifiation Code
+		switch(HIWORD(wParam))
+		{
+		case BN_CLICKED:
+			if(LOWORD(wParam) == IDC_BTN_UPLOAD){
+				SYSTEMTIME st;
+				memset(&st, NULL, sizeof(SYSTEMTIME));
+
+				GetLocalTime(&st);
+				//sprintf(str, "!SETTIME%d:%d:%d", 23, 59, 0);
+				sprintf(str, "!SETTIME%d:%d:%d", st.wHour, st.wMinute, st.wSecond);
+				SerialSend(lpReefWatchdogDevice->hDevice, str, NULL);
+
+			}
+			if(LOWORD(wParam) == IDC_BTN_DOWNLOAD){
+				SerialSend(lpReefWatchdogDevice->hDevice, "?GETTIME", str);
+				Edit_SetText(lpReefWatchdogDevice->hEditTime, str);
+			}
+			if(LOWORD(wParam) == IDC_BTN_CONNECT){
+				if(!lpReefWatchdogDevice->hDevice){
+					lpReefWatchdogDevice->hDevice = ConnectToDevice(&lpReefWatchdogDevice->numCom, "?ID", "ReefWatchdog");
+					if(lpReefWatchdogDevice->hDevice){
+						sprintf(str, "Connected (COM%d)", lpReefWatchdogDevice->numCom);
+						Edit_SetText(lpReefWatchdogDevice->hEditStatus, str);
+						Button_SetText(lpReefWatchdogDevice->hBtnConnect, "Disconnect");
+					}
+					else{
+						Button_SetText(lpReefWatchdogDevice->hBtnConnect, "Connect");
+						Edit_SetText(lpReefWatchdogDevice->hEditStatus, "Not Found");
+					}
+				}
+				else{
+					CloseHandle(lpReefWatchdogDevice->hDevice);
+					lpReefWatchdogDevice->hDevice = NULL;
+					lpReefWatchdogDevice->numCom = 0;
+					Button_SetText(lpReefWatchdogDevice->hBtnConnect, "Connect");
+					Edit_SetText(lpReefWatchdogDevice->hEditStatus, "Disconnected");
+				}
+
+			}
+			break;
+		case EN_CHANGE:
+			break;
+		default:
+			break;
+		}
+		//Control Identifier
+		switch(LOWORD(wParam))
+		{
+		//case IDSET:
+		//	return TRUE;
+		default:
+			break;
+		}
+
+		break;
+	case WM_SETHWND:
+
+		if(wParam == HWND_OWNER)
+			lpReefWatchdogDevice->hOwner = (HWND) lParam;
+
+		return TRUE;
+	case WM_NOTIFY:
+		{
+			PSHNOTIFY pshNotify = {0};
+			memcpy(&pshNotify, (VOID *)lParam, sizeof(PSHNOTIFY));
+
+			INT i = 0;
+			switch(pshNotify.hdr.code)
+			{
+			case PSN_APPLY:
+				return DialogReturn(hwnd, PSNRET_INVALID_NOCHANGEPAGE); /*PSNRET_NOERROR*/
+			case PSN_QUERYCANCEL:
+					SendMessage(lpReefWatchdogDevice->hOwner, WM_COMMAND, LOWORD(ID_DEVICES_REEFWATCHDOG), NULL);
+
+					RECT rc;
+					GetWindowRect(pshNotify.hdr.hwndFrom, &rc);
+					rc.left = rc.left;
+					//ShowWindow(pshNotify.hdr.hwndFrom, SW_HIDE);
+				return DialogReturn(hwnd, PSNRET_INVALID);
+			case PSN_KILLACTIVE:
+				return DialogReturn(hwnd, FALSE);
+			case PSN_SETACTIVE:
+				return TRUE;
+			default:
+				break;
+			}
+
+		}
+		return (LRESULT) FALSE;
+	case WM_CLOSE:
+
+		//SendMessage(lpPropertyManager->hOwner, WM_COMMAND, LOWORD(ID_VIEW_PROPERTYMANAGER), NULL);
+
+		return TRUE;
+	default:
+		return FALSE;
+	}
+
+
+	return FALSE;
+
+}
