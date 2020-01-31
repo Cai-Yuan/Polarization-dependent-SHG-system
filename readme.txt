@@ -1,5 +1,5 @@
 ========================================================================
-    WIN32 APPLICATION : RACE Project Overview
+WIN32 APPLICATION : RACE Project Overview (Tribute to Lucas, biophotonics lab, Clemson University)
 ========================================================================
 
 AppWizard has created this RACE application for you.
